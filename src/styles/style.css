@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  width: 100%;
+  font-size: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 97%;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  html {
+    font-size: 94%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  html {
+    font-size: 91%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  html {
+    font-size: 88%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  html {
+    font-size: 83%;
+  }
+}
+
+.themeBtn1 {
+  color: #fb0a12;
+  border: 1px solid #fb0a12;
+  background: transparent;
+  border-radius: 4px;
+}
+
+.themeBtn2 {
+  color: white;
+  background: #fb0a12;
+  border: 1px solid #fb0a12;
+  border-radius: 4px;
+}
+
+.themeBtn3 {
+  border-radius: 2px;
+  border: solid 1px #e1e1e1;
+  background-color: #f1f1f1;
+}
+
+.lightColor {
+  color: #676767;
+}
+
+.greenColor {
+  color: #00c457;
+}
+
+.redColor {
+  color: #fb0a12;
+}
+
+.borderRound {
+  border-radius: 6px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.page_container {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero_sec {
+  margin-top: 3.5rem;
+}
+
+.headerContainer {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  z-index: 1;
+  background: #ffff;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0.6rem 0rem;
+}
+
+.headerContainer .innerHeaderContainer {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerContainer .navLinks {
+  left: 44%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -30%);
+          transform: translate(-50%, -30%);
+}
+
+.headerContainer .navLinks ul li a {
+  font-size: 1rem;
+}
+
+.headerContainer .navLinks ul li.nestedOne:hover .nestedNav {
+  display: block;
+  opacity: 1;
+}
+
+.headerContainer .navLinks .nestedNav {
+  top: 110%;
+  left: -10%;
+  width: 160px;
+  display: none;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.headerContainer .navLinks .nestedNav .nestedLink:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.headerContainer .logo {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .headerContainer .logo {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .headerContainer .logo {
+    width: 84%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .headerContainer .logo {
+    width: 76%;
+  }
+}
+
+.SideBarContainer {
+  position: fixed;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  color: #000;
+  font-size: 3.5rem;
+  background-color: #fff;
+  height: 100vh;
+  padding: 0rem 5rem;
+  z-index: 11111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.SideBarContainer ul li {
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.SideBarContainer ul li a {
+  font-size: 2rem;
+}
+
+.CrossBTn {
+  position: absolute;
+  top: 3.2%;
+  right: 5.5%;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+
+.whyEndalgo_hero {
+  width: 100%;
+  height: 596px;
+  background-color: #111217;
+}
+
+@media screen and (max-width: 768px) {
+  .whyEndalgo_hero {
+    height: 452px;
+  }
+}
+
+.groupMembers {
+  background-color: #f7f7f7;
+}
+
+.footerContainer {
+  width: 100%;
+  border-top: 1px solid #e1e1e1;
+}
+
+.footerContainer .innerFooter {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerContainer .footerLine {
+  height: 100%;
+  width: 3px;
+  background: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .footerContainer {
+    background-color: #f7f7f7;
+  }
+  .footerContainer .openSection {
+    background-color: #ffffff85;
+  }
+}
+/*# sourceMappingURL=style.css.map */
