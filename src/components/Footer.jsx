@@ -32,7 +32,7 @@ const Footer = () => {
 		setFooter({ ...footer, support: !footer.support });
 	};
 	return (
-		<div className="footerContainer mt-5">
+		<div className="footerContainer">
 			<div className="innerFooter">
 				<div className="container-fluid">
 					<div className="row">
