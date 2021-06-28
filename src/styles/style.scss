@@ -108,7 +108,7 @@ html {
   height: 80px;
 
   .innerHeaderContainer {
-    max-width: 1024px;
+    max-width: 1020px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -252,6 +252,24 @@ html {
   }
 }
 // ===== LEADERS END ======
+
+// ===== GROUP MANAGEMENT BANNER START ======
+.groupManagement {
+  width: 100%;
+  height: 596px;
+  background-color: #111217;
+
+  img {
+    height: 596px;
+    width: 100%;
+  }
+}
+// @media screen and (max-width: 768px) {
+//   .groupManagement {
+//     height: 452px;
+//   }
+// }
+// ===== GROUP MANAGEMENT BANNER END ======
 
 // ===== FOOTER START ======
 .footerContainer {
