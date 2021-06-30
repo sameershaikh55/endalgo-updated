@@ -7,7 +7,7 @@ import mockup_1 from "../assets/mockup-1.webp";
 import { IoIosArrowForward } from "react-icons/io";
 import { GoCheck } from "react-icons/go";
 
-const CommunityLeaders = () => {
+const Schedulling = () => {
   return (
     <div className="communityLeader w-100">
       <div className="page_container">
@@ -17,33 +17,33 @@ const CommunityLeaders = () => {
               <img className="w-100" src={mockup_1} alt="" />
             </div>
             <div className="col-12 col-md-6 align-self-center ps-3 ps-md-4 order-0 order-md-1">
-              <h2 className="fw-bold">Community leaders choose ENDALGO</h2>
+              <h2 className="fw-bold">Beyond scheduling and communication</h2>
               <h6 className="centerPara">
-                Sports teams and clubs, outdoor activity groups, social groups,
-                and many more groups utilize ENDALGO to build, manage, and grow
-                their communities.
+                Scheduling, communication, payment, registrations, and many more
+                features are developed by hundreds of actual community leaders
+                and feedback from our users.
               </h6>
 
               <div className="points">
                 <p className="mb-0 d-flex">
                   <GoCheck color="#fb0a12" className="pe-2" fontSize="1.5rem" />
                   <span>
-                    Management purpose for sports teams and clubs from youth to
-                    adult
+                    Host and manage events with tracking availability, waitlist,
+                    and payment
                   </span>
                 </p>
                 <p className="mb-0 d-flex">
                   <GoCheck color="#fb0a12" className="pe-2" fontSize="1.5rem" />
                   <span>
-                    Community groups to meet new people for sports, social, and
-                    fitness groups
+                    Online registrations to find new members or players with
+                    built-in payment feature
                   </span>
                 </p>
                 <p className="mb-0 d-flex">
                   <GoCheck color="#fb0a12" className="pe-2" fontSize="1.5rem" />
                   <span>
-                    Events or experiences hostings and continuing growth for
-                    local experts or businesses
+                    Help leaders communicate via Group chat, board, and email
+                    features
                   </span>
                 </p>
               </div>
@@ -58,4 +58,4 @@ const CommunityLeaders = () => {
   );
 };
 
-export default CommunityLeaders;
+export default Schedulling;

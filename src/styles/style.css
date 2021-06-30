@@ -48,6 +48,12 @@ html {
   }
 }
 
+.mxContent {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .themeBtn1 {
   color: #fb0a12;
   border: 1px solid #fb0a12;
@@ -78,6 +84,10 @@ html {
 
 .redColor {
   color: #fb0a12;
+}
+
+.darkColor {
+  color: #222222;
 }
 
 .borderRound {
@@ -266,25 +276,30 @@ html {
   }
 }
 
-.communityLeader, .endalgoApp {
+.communityLeader,
+.endalgoApp {
   padding: 112px 0px 120px 0px;
 }
 
-.communityLeader .centerPara, .endalgoApp .centerPara {
+.communityLeader .centerPara,
+.endalgoApp .centerPara {
   margin: 24px 0px;
 }
 
-.communityLeader h6, .endalgoApp h6 {
+.communityLeader h6,
+.endalgoApp h6 {
   color: #222222;
   line-height: 24px;
   font-size: 1.1rem;
 }
 
-.communityLeader p, .endalgoApp p {
+.communityLeader p,
+.endalgoApp p {
   font-size: 1rem;
 }
 
-.communityLeader .points, .endalgoApp .points {
+.communityLeader .points,
+.endalgoApp .points {
   margin: 24px 0px;
   color: #676767;
 }
@@ -292,6 +307,54 @@ html {
 .endalgoApp.bgLightGray {
   padding: 112px 0px 120px 0px;
   background-color: #f7f7f7;
+}
+
+.groupFeature {
+  padding: 0px 0px 120px 0px;
+}
+
+.groupFeature .upperHead {
+  font-size: 18px;
+}
+
+.groupFeature .groupFeatureCard {
+  padding: 40px 32px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(238, 238, 238, 0.835);
+          box-shadow: 0 4px 8px 0 rgba(238, 238, 238, 0.835);
+  border: solid 1px #e1e1e1;
+  background-color: #fff;
+}
+
+.groupFeature .desc {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.emailArriveCont {
+  padding: 0px 0px 120px 0px;
+}
+
+.emailArriveCont .desc {
+  font-size: 0.9rem;
+  line-height: 1.43;
+}
+
+.getStartedCont {
+  background: #ce090f;
+  padding: 80px 0px 88px 0px;
+}
+
+.getStartedCont h1 {
+  font-size: 3rem;
+}
+
+.getStartedCont h5 {
+  font-size: 1.2rem;
+}
+
+.getStartedCont button:nth-child(1) {
+  color: #ce090f;
 }
 
 .footerContainer {
@@ -317,6 +380,9 @@ html {
   }
   .footerContainer .openSection {
     background-color: #ffffff85;
+  }
+  .getStartedCont h1 {
+    font-size: 2.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
