@@ -48,10 +48,22 @@ html {
   }
 }
 
+.twoLineElipses {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
 .mxContent {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+}
+
+.btnLg {
+  width: 130px;
 }
 
 .themeBtn1 {
@@ -76,6 +88,14 @@ html {
 
 .lightColor {
   color: #676767;
+}
+
+.lightGrayBg {
+  background: #f7f7f7;
+}
+
+.linkColor {
+  color: #008cff;
 }
 
 .greenColor {
@@ -106,6 +126,11 @@ html {
 
 .hero_sec {
   margin-top: 3.5rem;
+}
+
+.topBordersRadius {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .headerContainer {
@@ -355,6 +380,31 @@ html {
 
 .getStartedCont button:nth-child(1) {
   color: #ce090f;
+}
+
+.groupManagement.endalgoHome {
+  background-color: #f7f7f7;
+}
+
+.howEndalgo {
+  padding: 80px 0px 88px 0px;
+}
+
+.popularGroup {
+  padding: 0px 0px 120px 0px;
+}
+
+.popularGroupCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.popularGroupCard small {
+  font-size: 0.9rem;
+}
+
+.popularGroupCard .textPart {
+  height: 111px;
 }
 
 .footerContainer {

@@ -7,6 +7,9 @@ import Footer from "../components/Footer";
 import EndalgoApp from "../components/EndalgoApp";
 import CommunityLeaders from "../components/CommunityLeaders";
 import OurCustomer from "../components/OurCustomer";
+import Schedulling from "../components/Schedulling";
+import GroupFeatures from "../components/GroupFeatures";
+import EmailArrive from "../components/EmailArrive";
 
 // IMPORTING IMAGES
 import groupManagementBanner from "../assets/groupManagementBanner.PNG";
@@ -15,9 +18,6 @@ import app_store from "../assets/app-store-btn.webp";
 
 // IMPORTING HOOKS
 import { useHooks } from "../hooks/useHooks";
-import Schedulling from "../components/Schedulling";
-import GroupFeatures from "../components/GroupFeatures";
-import EmailArrive from "../components/EmailArrive";
 
 const GroupManagement = () => {
   const { isOpen, OnClick } = useHooks();
@@ -85,7 +85,7 @@ const GroupManagement = () => {
               <button className="bg-white py-2 mb-0 fw-bold rounded-3 px-5 border border-2 border-white">
                 Try for free
               </button>
-              <button className="bg-transparent py-2 mb-0 fw-bold rounded-3 px-5 border border-2 border-white ms-0 ms-md-3 mt-3 mt-md-0 text-white">
+              <button className="bg-transparent py-2 mb-0 fw-bold rounded-3 px-5 border border-2 border-white ms-3 text-white">
                 See pricing
               </button>
             </div>

@@ -47,8 +47,20 @@ html {
   }
 }
 
+.twoLineElipses {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
 .mxContent {
   width: max-content;
+}
+
+.btnLg {
+  width: 130px;
 }
 
 .themeBtn1 {
@@ -73,6 +85,14 @@ html {
 
 .lightColor {
   color: #676767;
+}
+
+.lightGrayBg {
+  background: #f7f7f7;
+}
+
+.linkColor {
+  color: #008cff;
 }
 
 .greenColor {
@@ -103,6 +123,11 @@ html {
 
 .hero_sec {
   margin-top: 3.5rem;
+}
+
+.topBordersRadius {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 // ===== HEADER START ======
@@ -371,6 +396,36 @@ html {
   }
 }
 // ===== GET STARTED END ======
+
+// ===== ENDALGO HERO START ======
+.groupManagement.endalgoHome {
+  background-color: #f7f7f7;
+}
+// ===== ENDALGO HERO END ======
+
+// ===== HOW ENDALGO WORKS START ======
+.howEndalgo {
+  padding: 80px 0px 88px 0px;
+}
+// ===== HOW ENDALGO WORKS END ======
+
+// ===== POPULAR GROUP CARD START ======
+.popularGroup {
+  padding: 0px 0px 120px 0px;
+}
+.popularGroupCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  small {
+    font-size: 0.9rem;
+  }
+
+  .textPart {
+    height: 111px;
+  }
+}
+// ===== POPULAR GROUP CARD END ======
 
 // ===== FOOTER START ======
 .footerContainer {
