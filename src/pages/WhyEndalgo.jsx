@@ -19,7 +19,6 @@ const WhyEndalgo = () => {
 		<div>
 			<Header ClickEvent={OnClick} />
 			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
-
 			{/* HERO SECTION START */}
 			<div className="hero_sec whyEndalgo_hero text-center text-white d-flex justify-content-center align-items-center">
 				<div className="container-fluid">
@@ -31,10 +30,8 @@ const WhyEndalgo = () => {
 				</div>
 			</div>
 			{/* HERO SECTION END */}
-
 			<GroupMembers />
 			<EndalgoForLeaders />
-
 			{/* WE GOT YOU BACK START */}
 			<div className="groupMembers w-100 py-5">
 				<div className="page_container">
@@ -58,7 +55,6 @@ const WhyEndalgo = () => {
 				</div>
 			</div>
 			{/* WE GOT YOU BACK END */}
-
 			<StartGroup />
 			<GetStarted />
 			<Footer />

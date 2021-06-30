@@ -4,9 +4,14 @@ import React from "react";
 import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
+import EndalgoApp from "../components/EndalgoApp";
+import CommunityLeaders from "../components/CommunityLeaders";
+import OurCustomer from "../components/OurCustomer";
 
 // IMPORTING IMAGES
 import groupManagementBanner from "../assets/groupManagementBanner.PNG";
+import google_play from "../assets/google-play-btn.webp";
+import app_store from "../assets/app-store-btn.webp";
 
 // IMPORTING HOOKS
 import { useHooks } from "../hooks/useHooks";
@@ -22,15 +27,17 @@ const GroupManagement = () => {
 			{/* HERO SECTION START */}
 			<div className="hero_sec groupManagement text-white">
 				<div className="page_container h-100">
-					<div className="container-fluid d-flex align-items-center h-100">
+					<div className="container-fluid d-lg-flex align-items-lg-center h-100">
 						<div className="row">
-							<div className="col-6 align-self-center">
-								<h2>Build, Manage, and Grow with Our #1 Group App</h2>
-								<h6>
+							<div className="col-12 col-md-8 mx-auto col-lg-5 align-self-center text-center text-lg-start">
+								<h2 className="fw-bold">
+									Build, Manage, and Grow with Our #1 Group App
+								</h2>
+								<h6 className="lh-base mt-3">
 									Build, manage, and grow your community with our group feature.
 									Save money on managing multiple websites and apps.
 								</h6>
-								<div>
+								<div className="mt-5 d-none d-md-block mb-4 mb-lg-0">
 									<button className="bg-white py-2 rounded-3 px-3 border border-2 border-white">
 										Try for free
 									</button>
@@ -38,9 +45,17 @@ const GroupManagement = () => {
 										See pricing
 									</button>
 								</div>
+								<div className="mt-5 d-flex d-md-none justify-content-center mt-3 mb-4">
+									<img src={google_play} alt="" />
+									<img src={app_store} alt="" className="ms-3" />
+								</div>
 							</div>
-							<div className="col-6">
-								<img src={groupManagementBanner} alt="groupManagementBanner" />
+							<div className="col-12 col-lg-7">
+								<img
+									className="banner"
+									src={groupManagementBanner}
+									alt="groupManagementBanner"
+								/>
 							</div>
 						</div>
 					</div>
@@ -48,6 +63,9 @@ const GroupManagement = () => {
 			</div>
 			{/* HERO SECTION END */}
 
+			<OurCustomer />
+			<CommunityLeaders />
+			<EndalgoApp />
 			<Footer />
 		</div>
 	);

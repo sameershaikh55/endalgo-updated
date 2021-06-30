@@ -109,7 +109,7 @@ html {
 }
 
 .headerContainer .innerHeaderContainer {
-  max-width: 1024px;
+  max-width: 1020px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -238,6 +238,60 @@ html {
 
 .leaderCardCont .textContent h5 {
   margin-bottom: 12px;
+}
+
+.groupManagement {
+  width: 100%;
+  height: 596px;
+  background-color: #111217;
+}
+
+.groupManagement .banner {
+  height: 596px;
+  width: 122%;
+}
+
+.groupManagement h2 {
+  font-size: 2.2rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .groupManagement {
+    padding: 4rem 0rem 0rem 0rem;
+    height: 100%;
+  }
+  .groupManagement .banner {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.communityLeader, .endalgoApp {
+  padding: 112px 0px 120px 0px;
+}
+
+.communityLeader .centerPara, .endalgoApp .centerPara {
+  margin: 24px 0px;
+}
+
+.communityLeader h6, .endalgoApp h6 {
+  color: #222222;
+  line-height: 24px;
+  font-size: 1.1rem;
+}
+
+.communityLeader p, .endalgoApp p {
+  font-size: 1rem;
+}
+
+.communityLeader .points, .endalgoApp .points {
+  margin: 24px 0px;
+  color: #676767;
+}
+
+.endalgoApp.bgLightGray {
+  padding: 112px 0px 120px 0px;
+  background-color: #f7f7f7;
 }
 
 .footerContainer {
