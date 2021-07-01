@@ -8,6 +8,9 @@ import instagram from "../assets/instagram.webp";
 import appstore from "../assets/appstore.webp";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
+// IMPORTING LINKS
+import { NavLink } from "react-router-dom";
+
 const Footer = () => {
 	const [footer, setFooter] = useState({
 		about: false,
@@ -74,7 +77,12 @@ const Footer = () => {
 										{footer.product && (
 											<div className="mt-2">
 												<h5 className="fw-bold">How It works</h5>
-												<h5 className="fw-bold">Group Management</h5>
+												<NavLink
+													to="/group_management"
+													className="text-dark text-decoration-none"
+												>
+													<h5 className="fw-bold">Group Management</h5>
+												</NavLink>
 												<ul className="list-unstyled mb-2">
 													<li className="lightColor fw-bold">・ Features</li>
 													<li className="lightColor fw-bold">・ Pricing</li>
@@ -96,7 +104,12 @@ const Footer = () => {
 										{footer.explore && (
 											<div className="mt-2">
 												<h5 className="fw-bold">Topics</h5>
-												<h5 className="fw-bold">Group Management</h5>
+												<NavLink
+													to="/group_management"
+													className="text-dark text-decoration-none"
+												>
+													<h5 className="fw-bold">Group Management</h5>
+												</NavLink>
 												<h5 className="fw-bold">Browse Cities</h5>
 											</div>
 										)}
@@ -131,7 +144,12 @@ const Footer = () => {
 										<div className="col-3">
 											<h5 className="fw-bold">Product</h5>
 											<h6 className="fw-bold">How It works</h6>
-											<h6 className="fw-bold">Group Management</h6>
+											<NavLink
+												to="/group_management"
+												className="text-dark text-decoration-none"
+											>
+												<h6 className="fw-bold">Group Management</h6>
+											</NavLink>
 											<ul className="list-unstyled mb-2">
 												<li className="lightColor">・ Features</li>
 												<li className="lightColor">・ Pricing</li>

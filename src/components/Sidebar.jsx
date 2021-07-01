@@ -27,7 +27,7 @@ const Sidebar = ({ isOpen, ClickEvent }) => {
 					<NavLink
 						className="text-dark text-decoration-none"
 						activeClassName="activeNav"
-						to="/"
+						to="/why"
 					>
 						Why
 					</NavLink>

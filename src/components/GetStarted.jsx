@@ -39,19 +39,19 @@ const GetStarted = () => {
                 const { img, title, desc } = prev;
 
                 return (
-                  <div key={i} className="col-12 col-md-6 mt-4 mt-md-0">
-                    <div className="bg-white border-1 border border-blue rounded-3 d-flex align-items-center p-4">
-                      <img width="24%" src={img} alt={title} />
-                      <div className="ms-3">
-                        <h5 className="fw-bold">{title}</h5>
-                        {desc}
-                        <button className="bg-transparent border-0 small mt-2 redColor">
-                          Download App <MdKeyboardArrowRight />
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                );
+									<div key={i} className="col-12 col-md-6 mt-4 mt-md-0">
+										<div className="bg-white border-1 border border-blue rounded-3 d-flex align-items-center p-4">
+											<img width="24%" src={img} alt={title} />
+											<div className="ms-3">
+												<h5 className="fw-bold">{title}</h5>
+												{desc}
+												<button className="btnHover bg-transparent border-0 small mt-2 redColor">
+													Download App <MdKeyboardArrowRight />
+												</button>
+											</div>
+										</div>
+									</div>
+								);
               })}
             </div>
           </div>
