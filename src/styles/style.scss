@@ -363,6 +363,22 @@ html {
 // ===== COMMMUNITY LEADERS END ======
 
 // ===== COACHES EXPERIENCE START ======
+@media screen and (min-width: 1200px) {
+	.communityPeople,
+	.coachesExp {
+		img {
+			width: 544px !important;
+			height: 560px;
+		}
+	}
+	.groupManagement.endalgoHome {
+		.heroImg {
+			width: 544px;
+			height: 534px;
+		}
+	}
+}
+
 .coachesExp {
 	padding: 112px 0px 120px 0px;
 	margin-bottom: 40px;
@@ -420,6 +436,16 @@ html {
 		.point {
 			margin-bottom: 8px;
 		}
+	}
+
+	.rightText {
+		padding-left: 5rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.communityPeople .rightText {
+		padding-left: 0rem;
 	}
 }
 // ===== COMMUNITY PEOPLE END ======
@@ -520,7 +546,7 @@ html {
 
 	h6 {
 		font-size: 1.125rem;
-    line-height: 24px;
+		line-height: 24px;
 	}
 }
 .popularGroupCard {
@@ -529,7 +555,7 @@ html {
 
 	small {
 		font-size: 0.75rem;
-    line-height: 20px;
+		line-height: 20px;
 	}
 
 	.textPart {
@@ -628,15 +654,15 @@ html {
 
 // ===== TOP CITIES START ======
 .topCities {
-  padding: 40px 0px 48px 0px;
-  
-  h4 {
-    margin-bottom: 24px;
-  }
+	padding: 40px 0px 48px 0px;
 
-  div {
-    font-size: 1rem;
-  }
+	h4 {
+		margin-bottom: 24px;
+	}
+
+	div {
+		font-size: 1rem;
+	}
 }
 // ===== TOP CITIES END ======
 
