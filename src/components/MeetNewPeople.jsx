@@ -8,7 +8,7 @@ import { GoCheck } from "react-icons/go";
 
 const MeetNewPeople = () => {
   return (
-    <div className="endalgoApp bgLightGray w-100">
+    <div className="communityPeople bgLightGray w-100">
       <div className="page_container">
         <div className="container-fluid">
           <div className="row">
@@ -17,34 +17,34 @@ const MeetNewPeople = () => {
             </div>
             <div className="col-12 col-md-6 align-self-center ps-3 ps-md-4 order-0 order-md-1">
               <h2 className="fw-bold">Meet new people in your community</h2>
-              <h6 className="centerPara">
+              <h6>
                 Thousands of communities of all sizes - from organized sports
                 taems to social groups - use ENDALGO to build, and grow their
                 communities.
               </h6>
-
+              <hr />
               <div className="points">
-                <p className="mb-0 d-flex">
+                <p className="point d-flex">
                   <GoCheck color="#fb0a12" className="pe-2" fontSize="1.5rem" />
                   <span>Organized teams and clubs</span>
                 </p>
-                <p className="mb-0 d-flex">
+                <p className="point d-flex">
                   <GoCheck color="#fb0a12" className="pe-2" fontSize="1.5rem" />
                   <span>Recreational groups</span>
                 </p>
-                <p className="mb-0 d-flex">
+                <p className="point d-flex">
                   <GoCheck color="#fb0a12" className="pe-2" fontSize="1.5rem" />
                   <span>Leisure groups</span>
                 </p>
-                <p className="mb-0 d-flex">
+                <p className="point d-flex">
                   <GoCheck color="#fb0a12" className="pe-2" fontSize="1.5rem" />
                   <span>Social groups</span>
                 </p>
-                <p className="mb-0 d-flex">
+                <p className="point d-flex">
                   <GoCheck color="#fb0a12" className="pe-2" fontSize="1.5rem" />
                   <span>Facility</span>
                 </p>
-                <p className="mb-0 d-flex">
+                <p className="d-flex">
                   <GoCheck color="#fb0a12" className="pe-2" fontSize="1.5rem" />
                   <span>Training academy & fitness</span>
                 </p>

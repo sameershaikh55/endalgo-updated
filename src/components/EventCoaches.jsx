@@ -8,7 +8,7 @@ import { GoCheck } from "react-icons/go";
 
 const EventCoaches = () => {
   return (
-    <div className="endalgoApp w-100">
+    <div className="coachesExp w-100">
       <div className="page_container">
         <div className="container-fluid">
           <div className="row">
