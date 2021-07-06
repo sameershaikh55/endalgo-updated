@@ -110,10 +110,10 @@ const GroupManagement = () => {
 						</div>
 
 						<div className="trustedCont2">
-							{/* <div className="innerTrustedCont text-center position-absolute text-white">
-								<div className="h3">⭐️⭐️⭐️⭐️⭐️</div>
+							<div className="innerTrustedCont text-center position-absolute text-white">
+								<div className="starIcon">⭐️⭐️⭐️⭐️⭐️</div>
 								<h4 className="fw-bold">4.5/5 from 1K+ Ratings</h4>
-							</div> */}
+							</div>
 						</div>
 					</div>
 				</div>

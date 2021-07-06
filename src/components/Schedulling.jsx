@@ -18,7 +18,7 @@ const Schedulling = () => {
 								<div className="col-12 col-md-6 mt-5 mt-md-0 pe-3 pe-md-5 order-1 order-md-0 align-self-center">
 									<img className="w-100" src={mockup_1} alt="" />
 								</div>
-								<div className="col-12 col-md-6 align-self-center ps-3 ps-md-4 order-0 order-md-1">
+								<div className="rightside col-12 col-md-6 align-self-center order-0 order-md-1">
 									<h2 className="fw-bold">
 										Beyond scheduling and communication
 									</h2>

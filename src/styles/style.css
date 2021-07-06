@@ -410,13 +410,21 @@ html {
   margin-bottom: 8px;
 }
 
-.communityLeader .rightText {
-  padding-left: 5rem;
+@media screen and (min-width: 1200px) {
+  .communityLeader .rightText {
+    padding-left: 5rem;
+  }
 }
 
 .communityLeader.scheduling {
   margin-top: 0px;
   margin-bottom: 80px;
+}
+
+@media screen and (min-width: 1200px) {
+  .communityLeader.scheduling .rightside {
+    padding-left: 5rem;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -498,13 +506,18 @@ html {
   margin-bottom: 8px;
 }
 
-.communityPeople .rightText {
-  padding-left: 5rem;
+@media screen and (min-width: 1200px) {
+  .communityPeople .rightText {
+    padding-left: 5rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .communityLeader .rightText,
   .communityPeople .rightText {
+    padding-left: 0.56rem;
+  }
+  .communityLeader.scheduling .rightside {
     padding-left: 0.56rem;
   }
 }
@@ -733,7 +746,7 @@ html {
 
 .trusted2 .rightSide {
   left: 50%;
-  top: 4%;
+  top: 5%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   width: 80%;
@@ -755,14 +768,33 @@ html {
   border-radius: 16px;
   -webkit-clip-path: ellipse(83% 41% at 50% 82%);
           clip-path: ellipse(83% 41% at 50% 82%);
-  background: url("../assets/group-photo.webp");
+  background: url("../assets/testHomeM.PNG");
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-position-x: center;
 }
 
+.trustedCont2 .innerTrustedCont {
+  right: 50%;
+  bottom: 25%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.trustedCont2 .innerTrustedCont x h4 {
+  font-size: 1.75rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.trustedCont2 .innerTrustedCont .starIcon {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
 .trusted2.home .trustedCont2 {
-  background: url("../assets/group-photo.webp");
+  background: url("../assets/testHomeM.PNG");
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-position-x: center;

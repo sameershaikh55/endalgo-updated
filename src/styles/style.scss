@@ -420,14 +420,22 @@ html {
 		}
 	}
 
-	.rightText {
-		padding-left: 5rem;
+	@media screen and (min-width: 1200px) {
+		.rightText {
+			padding-left: 5rem;
+		}
 	}
 }
 
 .communityLeader.scheduling {
 	margin-top: 0px;
 	margin-bottom: 80px;
+
+	@media screen and (min-width: 1200px) {
+		.rightside {
+			padding-left: 5rem;
+		}
+	}
 }
 // ===== COMMMUNITY LEADERS END ======
 
@@ -521,8 +529,10 @@ html {
 		}
 	}
 
-	.rightText {
-		padding-left: 5rem;
+	@media screen and (min-width: 1200px) {
+		.rightText {
+			padding-left: 5rem;
+		}
 	}
 }
 
@@ -530,6 +540,11 @@ html {
 	.communityLeader .rightText,
 	.communityPeople .rightText {
 		padding-left: 0.56rem;
+	}
+	.communityLeader.scheduling {
+		.rightside {
+			padding-left: 0.56rem;
+		}
 	}
 }
 // ===== COMMUNITY PEOPLE END ======
@@ -756,7 +771,7 @@ html {
 
 	.rightSide {
 		left: 50%;
-		top: 4%;
+		top: 5%;
 		transform: translateX(-50%);
 		width: 80%;
 	}
@@ -776,14 +791,29 @@ html {
 	background: #111217;
 	border-radius: 16px;
 	clip-path: ellipse(83% 41% at 50% 82%);
-	background: url("../assets/group-photo.webp");
+	background: url("../assets/testHomeM.PNG");
 	background-repeat: no-repeat;
 	background-position-y: bottom;
 	background-position-x: center;
+
+	.innerTrustedCont {
+		right: 50%;
+		bottom: 25%;
+		transform: translateX(50%);
+		x h4 {
+			font-size: 1.75rem;
+			width: max-content;
+		}
+
+		.starIcon {
+			font-size: 24px;
+			margin-bottom: 12px;
+		}
+	}
 }
 
 .trusted2.home .trustedCont2 {
-	background: url("../assets/group-photo.webp");
+	background: url("../assets/testHomeM.PNG");
 	background-repeat: no-repeat;
 	background-position-y: bottom;
 	background-position-x: center;
