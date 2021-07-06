@@ -47,7 +47,7 @@ const OurCustomer = () => {
 	];
 
 	return (
-		<div className="page_container py-5">
+		<div className="ourCustomer page_container">
 			<div className="container-fluid">
 				<h5 className="text-center fw-bold">
 					Our customer group types that trust ENDALGO’s group features

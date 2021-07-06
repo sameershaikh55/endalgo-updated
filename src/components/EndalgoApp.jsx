@@ -20,16 +20,17 @@ const EndalgoApp = () => {
 								provides an intuitive and user friendly app for leaders to
 								connect with people in their community.
 							</h6>
+							<hr />
 
 							<div className="points">
-								<p className="mb-0 d-flex">
+								<p className="d-flex">
 									<GoCheck color="#fb0a12" className="pe-2" fontSize="1.5rem" />
 									<span>
 										Simply set up your group profile. So, ENDALGO can promote to
 										the right audience for your group.
 									</span>
 								</p>
-								<p className="mb-0 d-flex">
+								<p className="d-flex">
 									<GoCheck color="#fb0a12" className="pe-2" fontSize="1.9rem" />
 									<span>
 										Invite your friends and people you know who share the same
@@ -37,7 +38,7 @@ const EndalgoApp = () => {
 										address.
 									</span>
 								</p>
-								<p className="mb-0 d-flex">
+								<p className="d-flex">
 									<GoCheck color="#fb0a12" className="pe-2" fontSize="1.5rem" />
 									<span>
 										Earn money or meet new people by listing your experience and

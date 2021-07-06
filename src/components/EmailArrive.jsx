@@ -32,7 +32,7 @@ const EmailArrive = () => {
 			<div className="page_container">
 				<div className="container-fluid">
 					<div className="text-center mb-5">
-						<h6 className="lightColor fw-bolder">Why ENDALGO</h6>
+						<h6 className="topHead lightColor fw-bolder">Why ENDALGO</h6>
 						<h3 className="fw-bold mt-1 mb-3">
 							Truest that emails arrive securely and your data is safe.
 						</h3>
@@ -42,9 +42,9 @@ const EmailArrive = () => {
 							const { img, title, desc } = prev;
 							return (
 								<div key={i} className="col-12 col-md-4 mt-4 mt-md-0">
-									<img src={img} alt="" />
-									<h5 className="mt-1 fw-bold">{title}</h5>
-									<h6 className="small desc darkColor mt-3 mb-4">{desc}</h6>
+									<img src={img} alt="" className="icon" />
+									<h5 className="mt-3 fw-bold">{title}</h5>
+									<h6 className="small desc darkColor mb-4">{desc}</h6>
 									<button className="btnHover bg-transparent redColor border-0 fw-bold h6">
 										Learn about features <IoIosArrowForward fontSize="1.2rem" />
 									</button>

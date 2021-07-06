@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
 * {
   padding: 0%;
   margin: 0%;
@@ -114,12 +114,21 @@ html {
   border-radius: 6px;
 }
 
+.btnHover {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.btnHover:hover {
+  text-decoration: underline;
+}
+
 .pointer {
   cursor: pointer;
 }
 
 .page_container {
-  max-width: 1020px;
+  max-width: 1120px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -144,7 +153,7 @@ html {
 }
 
 .headerContainer .innerHeaderContainer {
-  max-width: 1020px;
+  max-width: 1120px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -275,6 +284,16 @@ html {
   margin-bottom: 12px;
 }
 
+.ourCustomer {
+  padding: 56px 0rem;
+}
+
+.ourCustomer h5 {
+  line-height: 26px;
+  font-size: 1.25rem;
+  color: #676767;
+}
+
 .groupManagement {
   width: 100%;
   height: 596px;
@@ -287,7 +306,20 @@ html {
 }
 
 .groupManagement h2 {
-  font-size: 2.2rem;
+  font-size: 3rem;
+  font-weight: bolder !important;
+  line-height: 60px;
+}
+
+.groupManagement h6 {
+  line-height: 26px !important;
+  color: #222222;
+  font-size: 1.25rem;
+}
+
+.groupManagement .shareBtn img {
+  width: 135px;
+  height: 40px;
 }
 
 @media screen and (max-width: 1050px) {
@@ -299,34 +331,166 @@ html {
     width: 100%;
     height: 100%;
   }
+  .groupManagement .shareBtn {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
-.communityLeader,
 .endalgoApp {
   padding: 112px 0px 120px 0px;
 }
 
-.communityLeader .centerPara,
-.endalgoApp .centerPara {
+.endalgoApp h2 {
+  font-size: 2.375rem;
+  line-height: 48px;
+}
+
+.endalgoApp h6 {
+  color: #222222;
+  font-size: 1.125rem;
+  line-height: 26px !important;
   margin: 24px 0px;
 }
 
-.communityLeader h6,
-.endalgoApp h6 {
-  color: #222222;
-  line-height: 24px;
-  font-size: 1.1rem;
-}
-
-.communityLeader p,
 .endalgoApp p {
   font-size: 1rem;
 }
 
-.communityLeader .points,
 .endalgoApp .points {
   margin: 24px 0px;
   color: #676767;
+}
+
+.endalgoApp .points p {
+  margin-bottom: 8px;
+}
+
+.communityLeader {
+  margin-top: 40px;
+  padding: 112px 0px 120px 0px;
+}
+
+.communityLeader h2 {
+  font-size: 2.375rem;
+  line-height: 48px;
+}
+
+.communityLeader h6 {
+  margin: 24px 0px;
+  font-size: 1.125rem;
+  line-height: 24px;
+  color: #222222;
+}
+
+.communityLeader .points {
+  margin: 24px 0px;
+  color: #676767;
+}
+
+.communityLeader .points p {
+  margin-bottom: 8px;
+}
+
+.communityLeader .rightText {
+  padding-left: 5rem;
+}
+
+.communityLeader.scheduling {
+  margin-top: 0px;
+  margin-bottom: 80px;
+}
+
+@media screen and (min-width: 1200px) {
+  .communityPeople img,
+  .coachesExp img {
+    width: 544px !important;
+    height: 560px;
+  }
+  .groupManagement.endalgoHome .heroImg {
+    width: 544px;
+    height: 534px;
+  }
+  .communityLeader img {
+    width: 544px !important;
+    height: 560px;
+  }
+  .endalgoApp img {
+    width: 544px;
+    height: 560px;
+  }
+}
+
+.coachesExp {
+  padding: 112px 0px 120px 0px;
+  margin-bottom: 40px;
+}
+
+.coachesExp h2 {
+  font-size: 2.375rem;
+  line-height: 48px;
+}
+
+.coachesExp h6 {
+  margin: 24px 0px;
+  color: #222222;
+  font-size: 1.125rem;
+  line-height: 24px;
+}
+
+.coachesExp p {
+  font-size: 1rem;
+}
+
+.coachesExp .points {
+  margin: 24px 0px;
+  color: #676767;
+}
+
+.coachesExp .points .point {
+  margin-bottom: 8px;
+}
+
+.communityPeople {
+  padding: 112px 0px 120px 0px;
+  background-color: #f7f7f7;
+}
+
+.communityPeople h2 {
+  font-size: 2.375rem;
+  line-height: 48px;
+}
+
+.communityPeople h6 {
+  margin: 24px 0px;
+  color: #222222;
+  font-size: 1.125rem;
+  line-height: 24px;
+}
+
+.communityPeople p {
+  font-size: 1rem;
+}
+
+.communityPeople .points {
+  margin: 24px 0px;
+  color: #676767;
+}
+
+.communityPeople .points .point {
+  margin-bottom: 8px;
+}
+
+.communityPeople .rightText {
+  padding-left: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .communityLeader .rightText,
+  .communityPeople .rightText {
+    padding-left: 0rem;
+  }
 }
 
 .endalgoApp.bgLightGray {
@@ -349,11 +513,61 @@ html {
           box-shadow: 0 4px 8px 0 rgba(238, 238, 238, 0.835);
   border: solid 1px #e1e1e1;
   background-color: #fff;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.groupFeature .groupFeatureCard:hover {
+  -webkit-box-shadow: 0 5px 10px 0 rgba(204, 204, 204, 0.835);
+          box-shadow: 0 5px 10px 0 rgba(204, 204, 204, 0.835);
+}
+
+.groupFeature .groupFeatureCard h5 {
+  font-size: 1.5rem;
+  line-height: 30px;
 }
 
 .groupFeature .desc {
   margin-top: 12px;
+  margin-bottom: 32px;
+  font-size: 1rem;
+  line-height: 22px;
+}
+
+.groupFeature .minsHead {
+  font-size: 1.25rem;
   margin-bottom: 12px;
+  line-height: 26px;
+}
+
+.groupFeature h2 {
+  font-size: 2.375rem;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 1200px) {
+  .groupFeature .groupFeatureCard {
+    width: 448px;
+    height: 224px !important;
+  }
+  .groupFeature .groupFeatureCard .desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 .emailArriveCont {
@@ -368,6 +582,8 @@ html {
 .getStartedCont {
   background: #ce090f;
   padding: 80px 0px 88px 0px;
+
+
 }
 
 .getStartedCont h1 {
@@ -390,8 +606,28 @@ html {
   padding: 80px 0px 88px 0px;
 }
 
+.howEndalgo h2 {
+  font-size: 2.375rem;
+  line-height: 3rem;
+}
+
+.howEndalgo h6 {
+  font-size: 1.125rem;
+  line-height: 24px;
+  margin-bottom: 48px;
+}
+
 .popularGroup {
-  padding: 0px 0px 120px 0px;
+  padding: 112px 0px 120px 0px;
+}
+
+.popularGroup h5 {
+  font-size: 1.5rem;
+}
+
+.popularGroup h6 {
+  font-size: 1.125rem;
+  line-height: 24px;
 }
 
 .popularGroupCard {
@@ -400,11 +636,117 @@ html {
 }
 
 .popularGroupCard small {
-  font-size: 0.9rem;
+  font-size: 0.75rem;
+  line-height: 20px;
 }
 
 .popularGroupCard .textPart {
-  height: 111px;
+  height: 130px;
+}
+
+.trusted {
+  background: #111217;
+  border-radius: 16px;
+}
+
+.trusted .rightSide {
+  left: 4%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 40%;
+}
+
+.trusted .rightSide h4 {
+  font-size: 1.75rem;
+  line-height: 34px;
+}
+
+.trusted .rightSide p {
+  margin: 12px 48px 24px 0;
+  font-size: 1rem;
+  line-height: 22px;
+}
+
+.trustedCont {
+  background: #111217;
+  border-radius: 16px;
+  height: 294px;
+  background: url("../assets/group-photo.webp");
+  -webkit-clip-path: ellipse(37% 88% at 85% 50%);
+          clip-path: ellipse(37% 88% at 85% 50%);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+.trustedCont .innerTrustedCont {
+  right: 13%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.trusted.home .trustedCont {
+  background: url("../assets/group-photo.webp");
+  height: 394px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+.trusted2 {
+  background: #111217;
+  border-radius: 16px;
+}
+
+.trusted2 .rightSide {
+  left: 50%;
+  top: 4%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 80%;
+}
+
+@media screen and (max-width: 320px) {
+  .trusted2 .rightSide {
+    left: 46%;
+    top: 4%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 80%;
+  }
+}
+
+.trustedCont2 {
+  min-height: 568px;
+  background: #111217;
+  border-radius: 16px;
+  -webkit-clip-path: ellipse(83% 41% at 50% 82%);
+          clip-path: ellipse(83% 41% at 50% 82%);
+  background: url("../assets/group-photo.webp");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: center;
+}
+
+.trusted2.home .trustedCont2 {
+  background: url("../assets/group-photo.webp");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: center;
+}
+
+.topCities {
+  padding: 40px 0px 48px 0px;
+}
+
+.topCities h4 {
+  margin-bottom: 24px;
+}
+
+.topCities div {
+  font-size: 1rem;
 }
 
 .footerContainer {
@@ -413,7 +755,7 @@ html {
 }
 
 .footerContainer .innerFooter {
-  max-width: 1024px;
+  max-width: 1120px;
   margin-left: auto;
   margin-right: auto;
 }

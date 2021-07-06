@@ -294,6 +294,17 @@ html {
 }
 // ===== LEADERS END ======
 
+// ===== OUR CUSTOMERS START ======
+.ourCustomer {
+	padding: 56px 0rem;
+	h5 {
+		line-height: 26px;
+		font-size: 1.25rem;
+		color: #676767;
+	}
+}
+// ===== OUR CUSTOMERS END ======
+
 // ===== GROUP MANAGEMENT BANNER START ======
 .groupManagement {
 	width: 100%;
@@ -312,7 +323,8 @@ html {
 	}
 
 	h6 {
-		line-height: 26px;
+		line-height: 26px !important;
+		color: #222222;
 		font-size: 1.25rem;
 	}
 
@@ -342,14 +354,19 @@ html {
 // ===== GROUP MANAGEMENT BANNER END ======
 
 // ===== COMMMUNITY LEADERS START ======
-.communityLeader,
 .endalgoApp {
 	padding: 112px 0px 120px 0px;
 
+	h2 {
+		font-size: 2.375rem;
+		line-height: 48px;
+	}
+
 	h6 {
 		color: #222222;
-		line-height: 24px;
-		font-size: 1.1rem;
+		font-size: 1.125rem;
+		line-height: 26px !important;
+		margin: 24px 0px;
 	}
 	p {
 		font-size: 1rem;
@@ -358,7 +375,43 @@ html {
 	.points {
 		margin: 24px 0px;
 		color: #676767;
+
+		p {
+			margin-bottom: 8px;
+		}
 	}
+}
+
+.communityLeader {
+	margin-top: 40px;
+	padding: 112px 0px 120px 0px;
+
+	h2 {
+		font-size: 2.375rem;
+		line-height: 48px;
+	}
+	h6 {
+		margin: 24px 0px;
+		font-size: 1.125rem;
+		line-height: 24px;
+		color: #222222;
+	}
+	.points {
+		margin: 24px 0px;
+		color: #676767;
+		p {
+			margin-bottom: 8px;
+		}
+	}
+
+	.rightText {
+		padding-left: 5rem;
+	}
+}
+
+.communityLeader.scheduling {
+	margin-top: 0px;
+	margin-bottom: 80px;
 }
 // ===== COMMMUNITY LEADERS END ======
 
@@ -377,6 +430,18 @@ html {
 			height: 534px;
 		}
 	}
+	.communityLeader {
+		img {
+			width: 544px !important;
+			height: 560px;
+		}
+	}
+	.endalgoApp {
+		img {
+			width: 544px;
+			height: 560px;
+		}
+	}
 }
 
 .coachesExp {
@@ -389,6 +454,7 @@ html {
 	}
 
 	h6 {
+		margin: 24px 0px;
 		color: #222222;
 		font-size: 1.125rem;
 		line-height: 24px;
@@ -420,6 +486,7 @@ html {
 	}
 
 	h6 {
+		margin: 24px 0px;
 		color: #222222;
 		font-size: 1.125rem;
 		line-height: 24px;
@@ -444,6 +511,7 @@ html {
 }
 
 @media screen and (max-width: 768px) {
+	.communityLeader .rightText,
 	.communityPeople .rightText {
 		padding-left: 0rem;
 	}
@@ -471,14 +539,49 @@ html {
 		border: solid 1px #e1e1e1;
 		background-color: #fff;
 		transition: 0.6s;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
 
 		&:hover {
 			box-shadow: 0 5px 10px 0 rgba(204, 204, 204, 0.835);
 		}
+
+		h5 {
+			font-size: 1.5rem;
+			line-height: 30px;
+		}
 	}
 	.desc {
 		margin-top: 12px;
+		margin-bottom: 32px;
+		font-size: 1rem;
+		line-height: 22px;
+	}
+	.minsHead {
+		font-size: 1.25rem;
 		margin-bottom: 12px;
+		line-height: 26px;
+	}
+	h2 {
+		font-size: 2.375rem;
+		line-height: 48px;
+		margin-bottom: 24px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.groupFeature .groupFeatureCard {
+		width: 448px;
+		height: 224px !important;
+
+		.desc {
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
 	}
 }
 // ===== GROUP FEATURE END ======
@@ -486,6 +589,22 @@ html {
 // ===== EMAIL ARRIVE START ======
 .emailArriveCont {
 	padding: 0px 0px 120px 0px;
+
+	.topHead {
+		font-size: 1.25rem;
+		line-height: 26px;
+	}
+
+	h3 {
+		font-size: 2.375rem;
+		line-height: 48px;
+		margin-bottom: 48px;
+	}
+
+	.icon {
+		width: 40px;
+		height: 40px;
+	}
 
 	.desc {
 		font-size: 0.9rem;
@@ -501,6 +620,7 @@ html {
 
 	h1 {
 		font-size: 3rem;
+		margin-bottom: 0.75rem;
 	}
 
 	h5 {
@@ -590,21 +710,30 @@ html {
 
 .trustedCont {
 	background: #111217;
-	height: 394px;
 	border-radius: 16px;
-	clip-path: ellipse(37% 88% at 85% 50%);
+	height: 294px;
 	background: url("../assets/group-photo.webp");
+	clip-path: ellipse(37% 88% at 85% 50%);
 	background-repeat: no-repeat;
 	background-position-x: right;
 	background-position-y: center;
 
 	.innerTrustedCont {
-		right: 10%;
+		right: 13%;
 		top: 50%;
 		transform: translateY(-50%);
 	}
 }
 
+.trusted.home .trustedCont {
+	background: url("../assets/group-photo.webp");
+	height: 394px;
+	background-repeat: no-repeat;
+	background-position-x: right;
+	background-position-y: center;
+}
+
+// FOR MOBILE START
 .trusted2 {
 	background: #111217;
 	border-radius: 16px;
@@ -637,19 +766,13 @@ html {
 	background-position-x: center;
 }
 
-.trusted.home .trustedCont {
-	background: url("../assets/group-photo.webp");
-	background-repeat: no-repeat;
-	background-position-x: right;
-	background-position-y: center;
-}
-
 .trusted2.home .trustedCont2 {
 	background: url("../assets/group-photo.webp");
 	background-repeat: no-repeat;
 	background-position-y: bottom;
 	background-position-x: center;
 }
+// FOR MOBILE START
 // ===== TRUSTED END ======
 
 // ===== TOP CITIES START ======

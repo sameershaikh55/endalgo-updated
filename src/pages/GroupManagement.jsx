@@ -35,7 +35,7 @@ const GroupManagement = () => {
 								<h2 className="fw-bold">
 									Build, Manage, and Grow with Our #1 Group App
 								</h2>
-								<h6 className="lh-base mt-3">
+								<h6 className="lh-base mt-3 text-white">
 									Build, manage, and grow your community with our group feature.
 									Save money on managing multiple websites and apps.
 								</h6>
@@ -83,10 +83,10 @@ const GroupManagement = () => {
 						</div>
 
 						<div className="trustedCont position-relative">
-							{/* <div className="innerTrustedCont text-center position-absolute text-white">
+							<div className="innerTrustedCont text-center position-absolute text-white">
 								<div className="h3">⭐️⭐️⭐️⭐️⭐️</div>
 								<h4 className="fw-bold">4.5/5 from 1K+ Ratings</h4>
-							</div> */}
+							</div>
 						</div>
 					</div>
 				</div>
@@ -125,6 +125,7 @@ const GroupManagement = () => {
 			<Schedulling />
 			<GroupFeatures />
 			<EmailArrive />
+			
 			{/* GET STARTED START */}
 			<div className="getStartedCont">
 				<div className="page_container">
@@ -145,6 +146,7 @@ const GroupManagement = () => {
 				</div>
 			</div>
 			{/* GET STARTED END */}
+			
 			<Footer />
 		</div>
 	);
