@@ -61,36 +61,41 @@ const GroupFeatures = () => {
 			<div className="page_container">
 				<div className="container-fluid">
 					<div className="row">
-						<div className="col-12 col-md-10 mx-auto">
-							<div className="text-center">
-								<h6 className="lightColor minsHead upperHead">
-									Group Management Features
-								</h6>
-								<h2 className="fw-bold">There's even more to love</h2>
-							</div>
-
+						<div className="col-11 col-md-12 mx-auto">
 							<div className="row">
-								{data.map((prev, i) => {
-									const { img, title, desc } = prev;
-									return (
-										<div key={i} className="col-12 col-md-6 mt-4">
-											<div className="groupFeatureCard h-100">
-												<div>
-													<div className="d-flex align-items-center">
-														<img src={img} alt={title} />
-														<h5 className="ms-2 mb-0 fw-bold">{title}</h5>
+								<div className="col-12 col-md-10 mx-auto">
+									<div className="text-center">
+										<h6 className="lightColor minsHead upperHead">
+											Group Management Features
+										</h6>
+										<h2 className="fw-bold">There's even more to love</h2>
+									</div>
+
+									<div className="row">
+										{data.map((prev, i) => {
+											const { img, title, desc } = prev;
+											return (
+												<div key={i} className="col-12 col-md-6 mt-4">
+													<div className="groupFeatureCard h-100">
+														<div>
+															<div className="d-flex align-items-center">
+																<img src={img} alt={title} />
+																<h5 className="ms-2 mb-0 fw-bold">{title}</h5>
+															</div>
+															<h6 className="desc darkColor">{desc}</h6>
+														</div>
+														<div>
+															<button className="bg-transparent greenColor border-0 fw-bold h6">
+																Learn more{" "}
+																<FaArrowCircleRight fontSize="1.2rem" />
+															</button>
+														</div>
 													</div>
-													<h6 className="desc darkColor">{desc}</h6>
 												</div>
-												<div>
-													<button className="bg-transparent greenColor border-0 fw-bold h6">
-														Learn more <FaArrowCircleRight fontSize="1.2rem" />
-													</button>
-												</div>
-											</div>
-										</div>
-									);
-								})}
+											);
+										})}
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

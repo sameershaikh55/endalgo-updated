@@ -21,9 +21,9 @@ import PopularGroups from "../components/PopularGroups";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
 const EndalgoHome = () => {
-  const { isOpen, OnClick } = useHooks();
+	const { isOpen, OnClick } = useHooks();
 
-  return (
+	return (
 		<div>
 			<Header ClickEvent={OnClick} />
 			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
@@ -117,26 +117,30 @@ const EndalgoHome = () => {
 			<div className="topCities lightGrayBg">
 				<div className="page_container">
 					<div className="container-fluid">
-						<div className="">
-							<h4 className="fw-bolder">Top Cities</h4>
-							<div className="row mt-4">
-								<div className="col-4 col-md-3 col-lg-2 linkColor fw-bold">
-									Los Angeles
-								</div>
-								<div className="col-4 col-md-3 col-lg-2 linkColor fw-bold">
-									Irvine
-								</div>
-								<div className="col-4 col-md-3 col-lg-2 linkColor fw-bold">
-									Chicago
-								</div>
-								<div className="col-4 col-md-3 col-lg-2 linkColor fw-bold">
-									Las Vegas
-								</div>
-								<div className="col-4 col-md-3 col-lg-2 linkColor fw-bold">
-									Charlotte
-								</div>
-								<div className="col-4 col-md-3 col-lg-2 linkColor fw-bold">
-									Atlanta
+						<div className="row">
+							<div className="col-11 col-md-12 mx-auto">
+								<div className="">
+									<h4 className="fw-bolder">Top Cities</h4>
+									<div className="row mt-4">
+										<div className="col-4 col-md-3 col-lg-2 linkColor fw-bold">
+											Los Angeles
+										</div>
+										<div className="col-4 col-md-3 col-lg-2 linkColor fw-bold">
+											Irvine
+										</div>
+										<div className="col-4 col-md-3 col-lg-2 linkColor fw-bold">
+											Chicago
+										</div>
+										<div className="col-4 col-md-3 col-lg-2 linkColor fw-bold">
+											Las Vegas
+										</div>
+										<div className="col-4 col-md-3 col-lg-2 linkColor fw-bold">
+											Charlotte
+										</div>
+										<div className="col-4 col-md-3 col-lg-2 linkColor fw-bold">
+											Atlanta
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>

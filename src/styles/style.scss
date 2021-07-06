@@ -18,32 +18,32 @@ html {
 }
 @media screen and (max-width: 992px) {
 	html {
-		font-size: 97%;
+		font-size: 96%;
 	}
 }
 @media screen and (max-width: 668px) {
 	html {
-		font-size: 94%;
+		font-size: 92%;
 	}
 }
 @media screen and (max-width: 575px) {
 	html {
-		font-size: 91%;
+		font-size: 88%;
 	}
 }
 @media screen and (max-width: 475px) {
 	html {
-		font-size: 88%;
+		font-size: 84%;
 	}
 }
 @media screen and (max-width: 380px) {
 	html {
-		font-size: 85%;
+		font-size: 80%;
 	}
 }
 @media screen and (max-width: 280px) {
 	html {
-		font-size: 83%;
+		font-size: 76%;
 	}
 }
 
@@ -193,6 +193,8 @@ html {
 
 @media screen and (max-width: 768px) {
 	.headerContainer {
+		height: 60px;
+
 		.logo {
 			width: 100%;
 		}
@@ -313,7 +315,7 @@ html {
 
 	.banner {
 		height: 596px;
-		width: 122%;
+		width: 108%;
 	}
 
 	h2 {
@@ -334,6 +336,10 @@ html {
 			height: 40px;
 		}
 	}
+
+	.groupHeroBtn {
+		margin-top: 40px;
+	}
 }
 
 @media screen and (max-width: 1050px) {
@@ -348,6 +354,16 @@ html {
 
 		.shareBtn {
 			justify-content: center;
+		}
+	}
+}
+@media screen and (max-width: 768px) {
+	.groupManagement {
+		padding: 2.5rem 0rem 0rem 0rem;
+
+		.groupHeroBtn {
+			margin-top: 40px;
+			margin-bottom: 32px;
 		}
 	}
 }
@@ -427,7 +443,7 @@ html {
 	.groupManagement.endalgoHome {
 		.heroImg {
 			width: 544px;
-			height: 534px;
+			// height: 534px;
 		}
 	}
 	.communityLeader {
@@ -513,7 +529,7 @@ html {
 @media screen and (max-width: 768px) {
 	.communityLeader .rightText,
 	.communityPeople .rightText {
-		padding-left: 0rem;
+		padding-left: 0.56rem;
 	}
 }
 // ===== COMMUNITY PEOPLE END ======
@@ -712,7 +728,7 @@ html {
 	background: #111217;
 	border-radius: 16px;
 	height: 294px;
-	background: url("../assets/group-photo.webp");
+	background: url("../assets/trustedgroup.png");
 	clip-path: ellipse(37% 88% at 85% 50%);
 	background-repeat: no-repeat;
 	background-position-x: right;
@@ -726,7 +742,7 @@ html {
 }
 
 .trusted.home .trustedCont {
-	background: url("../assets/group-photo.webp");
+	background: url("../assets/test4.PNG");
 	height: 394px;
 	background-repeat: no-repeat;
 	background-position-x: right;

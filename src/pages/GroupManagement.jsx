@@ -39,7 +39,7 @@ const GroupManagement = () => {
 									Build, manage, and grow your community with our group feature.
 									Save money on managing multiple websites and apps.
 								</h6>
-								<div className="mt-5 mb-4 mb-lg-0">
+								<div className="groupHeroBtn">
 									<button className="bg-white py-2 rounded-3 px-3 border border-2 border-white">
 										Try for free
 									</button>
@@ -64,6 +64,7 @@ const GroupManagement = () => {
 				</div>
 			</div>
 			{/* HERO SECTION END */}
+
 			<OurCustomer />
 
 			{/* TRUSTING START */}
@@ -125,28 +126,32 @@ const GroupManagement = () => {
 			<Schedulling />
 			<GroupFeatures />
 			<EmailArrive />
-			
+
 			{/* GET STARTED START */}
 			<div className="getStartedCont">
 				<div className="page_container">
 					<div className="container-fluid">
-						<div className="text-center text-white">
-							<h1 className="fw-bolder">Ready to get started?</h1>
-							<h5>Free to get started. Free to create your group.</h5>
-						</div>
-						<div className="mt-5 d-flex flex-column flex-md-row justify-content-center">
-							<button className="bg-white py-2 mb-0 fw-bold rounded-3 px-5 border border-2 border-white">
-								Try for free
-							</button>
-							<button className="bg-transparent py-2 mb-0 fw-bold rounded-3 px-5 border border-2 border-white ms-0 ms-md-3 mt-3 mt-md-0 text-white">
-								See pricing
-							</button>
+						<div className="row">
+							<div className="col-11 col-md-12 mx-auto">
+								<div className="text-center text-white">
+									<h1 className="fw-bolder">Ready to get started?</h1>
+									<h5>Free to get started. Free to create your group.</h5>
+								</div>
+								<div className="mt-5 d-flex flex-column flex-md-row justify-content-center">
+									<button className="bg-white py-2 mb-0 fw-bold rounded-3 px-5 border border-2 border-white">
+										Try for free
+									</button>
+									<button className="bg-transparent py-2 mb-0 fw-bold rounded-3 px-5 border border-2 border-white ms-0 ms-md-3 mt-3 mt-md-0 text-white">
+										See pricing
+									</button>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			{/* GET STARTED END */}
-			
+
 			<Footer />
 		</div>
 	);
