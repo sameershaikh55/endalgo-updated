@@ -43,7 +43,7 @@ const HowEndalgo = () => {
 									return (
 										<div
 											key={i}
-											className="col-12 col-sm-6 col-md-4 mt-4 mt-md-0"
+											className="col-12 col-sm-6 col-md-4 mt-4 mt-md-0 px-3"
 										>
 											<div className="memberCard">
 												<img className="w-100 rounded-3" src={img} alt="" />

@@ -1,7 +1,7 @@
 import React from "react";
 
 // importing images
-import mockup_2 from "../assets/mockup-2.webp";
+import mockup_2 from "../assets/groupMockup-2.webp";
 
 // importing icons
 import { IoIosArrowForward } from "react-icons/io";

@@ -12,7 +12,7 @@ import GroupFeatures from "../components/GroupFeatures";
 import EmailArrive from "../components/EmailArrive";
 
 // IMPORTING IMAGES
-import groupManagementBanner from "../assets/groupManagementBanner.PNG";
+import groupManagementBanner from "../assets/groupManagementBanner.webp";
 import google_play from "../assets/google-play-btn.webp";
 import app_store from "../assets/app-store-btn.webp";
 
@@ -30,8 +30,8 @@ const GroupManagement = () => {
 			<div className="hero_sec groupManagement text-white">
 				<div className="page_container h-100">
 					<div className="container-fluid d-lg-flex align-items-lg-center h-100">
-						<div className="row">
-							<div className="col-12 col-md-8 mx-auto col-lg-5 align-self-center text-center text-lg-start">
+						<div className="row h-100">
+							<div className="col-12 col-md-8 col-lg-5 mx-auto text-center text-lg-start align-self-center">
 								<h2 className="fw-bold">
 									Build, Manage, and Grow with Our #1 Group App
 								</h2>
@@ -52,7 +52,7 @@ const GroupManagement = () => {
 									<img src={app_store} alt="" className="ms-3" />
 								</div> */}
 							</div>
-							<div className="col-12 col-sm-8 col-lg-7 mx-auto">
+							<div className="col-12 col-sm-8 col-lg-7 mx-auto align-self-end">
 								<img
 									className="banner"
 									src={groupManagementBanner}

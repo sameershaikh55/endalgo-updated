@@ -21,7 +21,7 @@ const EventCoaches = () => {
 									<h6 className="centerPara">
 										Find events, coaches, and experiences near you
 									</h6>
-
+									<hr />
 									<div className="points">
 										<p className="mb-0 d-flex">
 											<GoCheck

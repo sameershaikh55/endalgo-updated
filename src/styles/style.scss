@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 
 * {
 	padding: 0%;
@@ -130,7 +130,7 @@ html {
 }
 
 .hero_sec {
-	margin-top: 3.5rem;
+	margin-top: 5rem;
 }
 
 .topBordersRadius {
@@ -272,6 +272,30 @@ html {
 .groupMembers {
 	background-color: #f7f7f7;
 	padding: 80px 0px 88px 0px;
+	margin-top: 5rem;
+	margin-bottom: 5.5rem;
+
+	h5 {
+		margin-bottom: 12px;
+	}
+
+	.groupMCont {
+		padding: 2.5rem;
+
+		img {
+			height: 135px;
+			width: 135px;
+		}
+
+		h5 {
+			font-size: 1.5rem;
+			line-height: 1.25;
+		}
+
+		p {
+			line-height: 1.38;
+		}
+	}
 }
 // ===== GROUP MEMBERS END ======
 
@@ -279,6 +303,9 @@ html {
 .startGroup {
 	.underHead {
 		margin-bottom: 48px;
+	}
+	.rowCont {
+		--bs-gutter-x: 2rem;
 	}
 }
 // ===== START A GROUP END ======
@@ -298,7 +325,7 @@ html {
 
 // ===== OUR CUSTOMERS START ======
 .ourCustomer {
-	padding: 56px 0rem;
+	padding: 3rem 0rem 3.5rem 0rem;
 	h5 {
 		line-height: 26px;
 		font-size: 1.25rem;
@@ -314,8 +341,9 @@ html {
 	background-color: #111217;
 
 	.banner {
-		height: 596px;
-		width: 108%;
+		// height: 534px;
+		// width: 640px;
+		// width: auto;
 	}
 
 	h2 {
@@ -450,8 +478,8 @@ html {
 	}
 	.groupManagement.endalgoHome {
 		.heroImg {
-			width: 544px;
-			// height: 534px;
+			width: 640px;
+			height: 534px;
 		}
 	}
 	.communityLeader {
@@ -583,6 +611,15 @@ html {
 			line-height: 30px;
 		}
 	}
+
+	.cardUpperCont {
+		--bs-gutter-x: 2rem;
+	}
+
+	.colCont {
+		margin-top: 2rem;
+	}
+
 	.desc {
 		margin-top: 12px;
 		margin-bottom: 32px;
@@ -616,6 +653,20 @@ html {
 	}
 }
 // ===== GROUP FEATURE END ======
+
+// ===== ENDALGO FOR LEADERS START ======
+.endalgoForLeaders {
+	padding: 5rem 0rem 5.5rem 0rem;
+
+	.rowCont {
+		--bs-gutter-x: 2rem;
+	}
+
+	.colCont {
+		margin-top: 2rem;
+	}
+}
+// ===== ENDALGO FOR LEADERS END ======
 
 // ===== EMAIL ARRIVE START ======
 .emailArriveCont {
@@ -698,6 +749,14 @@ html {
 	h6 {
 		font-size: 1.125rem;
 		line-height: 24px;
+	}
+
+	.upperCardCont {
+		margin-top: 32px;
+	}
+
+	.rowCont {
+		--bs-gutter-x: 2rem;
 	}
 }
 .popularGroupCard {
@@ -866,6 +925,9 @@ html {
 		h1 {
 			font-size: 2.5rem;
 		}
+	}
+	.hero_sec {
+		margin-top: 4rem;
 	}
 }
 // ===== FOOTER END ======

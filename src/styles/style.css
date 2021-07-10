@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 * {
   padding: 0%;
   margin: 0%;
@@ -134,7 +134,7 @@ html {
 }
 
 .hero_sec {
-  margin-top: 3.5rem;
+  margin-top: 5rem;
 }
 
 .topBordersRadius {
@@ -272,10 +272,38 @@ html {
 .groupMembers {
   background-color: #f7f7f7;
   padding: 80px 0px 88px 0px;
+  margin-top: 5rem;
+  margin-bottom: 5.5rem;
+}
+
+.groupMembers h5 {
+  margin-bottom: 12px;
+}
+
+.groupMembers .groupMCont {
+  padding: 2.5rem;
+}
+
+.groupMembers .groupMCont img {
+  height: 135px;
+  width: 135px;
+}
+
+.groupMembers .groupMCont h5 {
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
+.groupMembers .groupMCont p {
+  line-height: 1.38;
 }
 
 .startGroup .underHead {
   margin-bottom: 48px;
+}
+
+.startGroup .rowCont {
+  --bs-gutter-x: 2rem;
 }
 
 .leaderCardCont .textContent {
@@ -288,7 +316,7 @@ html {
 }
 
 .ourCustomer {
-  padding: 56px 0rem;
+  padding: 3rem 0rem 3.5rem 0rem;
 }
 
 .ourCustomer h5 {
@@ -301,11 +329,6 @@ html {
   width: 100%;
   height: 596px;
   background-color: #111217;
-}
-
-.groupManagement .banner {
-  height: 596px;
-  width: 108%;
 }
 
 .groupManagement h2 {
@@ -434,7 +457,8 @@ html {
     height: 560px;
   }
   .groupManagement.endalgoHome .heroImg {
-    width: 544px;
+    width: 640px;
+    height: 534px;
   }
   .communityLeader img {
     width: 544px !important;
@@ -566,6 +590,14 @@ html {
   line-height: 30px;
 }
 
+.groupFeature .cardUpperCont {
+  --bs-gutter-x: 2rem;
+}
+
+.groupFeature .colCont {
+  margin-top: 2rem;
+}
+
 .groupFeature .desc {
   margin-top: 12px;
   margin-bottom: 32px;
@@ -597,6 +629,18 @@ html {
     overflow: hidden;
     text-overflow: ellipsis;
   }
+}
+
+.endalgoForLeaders {
+  padding: 5rem 0rem 5.5rem 0rem;
+}
+
+.endalgoForLeaders .rowCont {
+  --bs-gutter-x: 2rem;
+}
+
+.endalgoForLeaders .colCont {
+  margin-top: 2rem;
 }
 
 .emailArriveCont {
@@ -672,6 +716,14 @@ html {
 .popularGroup h6 {
   font-size: 1.125rem;
   line-height: 24px;
+}
+
+.popularGroup .upperCardCont {
+  margin-top: 32px;
+}
+
+.popularGroup .rowCont {
+  --bs-gutter-x: 2rem;
 }
 
 .popularGroupCard {
@@ -838,6 +890,9 @@ html {
   }
   .getStartedCont h1 {
     font-size: 2.5rem;
+  }
+  .hero_sec {
+    margin-top: 4rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

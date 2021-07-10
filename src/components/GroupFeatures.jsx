@@ -71,11 +71,11 @@ const GroupFeatures = () => {
 										<h2 className="fw-bold">There's even more to love</h2>
 									</div>
 
-									<div className="row">
+									<div className="row cardUpperCont">
 										{data.map((prev, i) => {
 											const { img, title, desc } = prev;
 											return (
-												<div key={i} className="col-12 col-md-6 mt-4">
+												<div key={i} className="colCont col-12 col-md-6">
 													<div className="groupFeatureCard h-100">
 														<div>
 															<div className="d-flex align-items-center">

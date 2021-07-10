@@ -33,7 +33,7 @@ const EndalgoHome = () => {
 				<div className="page_container h-100">
 					<div className="container-fluid h-100">
 						<div className="row h-100">
-							<div className="col-12 col-md-8 col-lg-6 mx-auto text-center text-lg-start align-self-center">
+							<div className="col-12 col-md-8 col-lg-5 mx-auto text-center text-lg-start align-self-center">
 								<h2 className="fw-bold">
 									Sports, leisure, and recreation communities near you
 								</h2>
@@ -46,8 +46,8 @@ const EndalgoHome = () => {
 									<img src={google_play} alt="" className="ms-3" />
 								</div>
 							</div>
-							<div className="heroImg col-12 col-sm-8 col-lg-6 mx-auto align-self-end">
-								<img width="100%" src={handBanner} alt="handBanner" />
+							<div className="heroImg col-12 col-sm-8 col-lg-7 mx-auto align-self-end">
+								<img src={handBanner} alt="handBanner" />
 							</div>
 						</div>
 					</div>

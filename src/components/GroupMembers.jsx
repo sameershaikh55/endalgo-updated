@@ -23,37 +23,37 @@ const GroupMembers = () => {
     },
   ];
   return (
-    <div className="groupMembers w-100">
-      <div className="page_container">
-        <div className="container-fluid">
-          <h6>Group members</h6>
-          <div className="mt-2 mb-4">
-            <h2 className="fw-bold mb-0">
-              People join ENDALGO groups to do outdoor activities,
-            </h2>
-            <h2 className="fw-bold">
-              pursue their passion in sports, and become healthy.{" "}
-            </h2>
-          </div>
+		<div className="groupMembers w-100">
+			<div className="page_container">
+				<div className="container-fluid">
+					<h6>Group members</h6>
+					<div className="mt-2 mb-4">
+						<h2 className="fw-bold mb-0">
+							People join ENDALGO groups to do outdoor activities,
+						</h2>
+						<h2 className="fw-bold mb-5">
+							pursue their passion in sports, and become healthy.{" "}
+						</h2>
+					</div>
 
-          <div className="row">
-            {data.map((prev, i) => {
-              const { img, title, desc } = prev;
-              return (
-                <div key={i} className="col-12 col-sm-6 col-md-4 mt-4 mt-md-0">
-                  <div className="memberCard">
-                    <img className="w-100 rounded-3" src={img} alt="" />
-                    <h5 className="fw-bold mt-4">{title}</h5>
-                    <h6 className="small">{desc}</h6>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+					<div className="row">
+						{data.map((prev, i) => {
+							const { img, title, desc } = prev;
+							return (
+								<div key={i} className="col-12 col-sm-6 col-md-4 mt-4 mt-md-0">
+									<div className="memberCard">
+										<img className="w-100 rounded-3" src={img} alt="" />
+										<h5 className="fw-bold mt-4">{title}</h5>
+										<h6 className="small">{desc}</h6>
+									</div>
+								</div>
+							);
+						})}
+					</div>
+				</div>
+			</div>
+		</div>
+	);
 };
 
 export default GroupMembers;

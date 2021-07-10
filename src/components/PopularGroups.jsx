@@ -47,11 +47,14 @@ const PopularGroups = () => {
 								</h6>
 							</div>
 
-							<div className="row">
+							<div className="row rowCont">
 								{data.map((prev, i) => {
 									const { img, title } = prev;
 									return (
-										<div className="col-12 col-sm-6 col-md-4 mt-4" key={i}>
+										<div
+											className="upperCardCont col-12 col-sm-6 col-md-4"
+											key={i}
+										>
 											<div className="popularGroupCard h-100">
 												<img
 													className="w-100 topBordersRadius"
