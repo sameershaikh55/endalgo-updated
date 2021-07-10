@@ -46,7 +46,7 @@ const EndalgoHome = () => {
                   <img src={google_play} alt="" className="ms-3" />
                 </div>
               </div>
-              <div className="heroImg col-12 col-sm-8 col-lg-7 mx-auto align-self-end">
+              <div className="heroImg col-12 col-sm-8 col-lg-7 mx-auto align-self-end mt-4 mt-md-0">
                 <img src={handBanner} alt="handBanner" />
               </div>
             </div>
