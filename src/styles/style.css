@@ -262,6 +262,14 @@
   line-height: 1.38;
 }
 
+.groupMembers.whyEndalgo {
+  margin-top: 0rem;
+}
+
+.groupMembers.whyEndalgo .main_head {
+  font-size: 38px;
+}
+
 .startGroup .underHead {
   margin-bottom: 48px;
 }
@@ -277,6 +285,18 @@
 
 .leaderCardCont .textContent h5 {
   margin-bottom: 12px;
+}
+
+.memberCardWhy h5 {
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 24px 0px 8px;
+}
+
+.memberCardWhy h6 {
+  font-size: 14px;
+  line-height: 1.43;
+  margin: 8px 0px 0;
 }
 
 .ourCustomer {
@@ -1083,6 +1103,28 @@
   .getStartedCont h1 {
     font-size: 32px;
     line-height: 1.19;
+  }
+  .groupMembers.whyEndalgo {
+    padding: 64px 0px 72px;
+  }
+  .groupMembers.whyEndalgo .short_head {
+    font-size: 16px;
+  }
+  .groupMembers.whyEndalgo .main_head {
+    font-size: 28px;
+  }
+  .groupMembers.whyEndalgo .main_head:nth-child(1) {
+    margin: 8px 0 32px;
+  }
+  .groupMembers.whyEndalgo .memberCardWhy h5 {
+    font-size: 18px;
+    margin: 16px 0 8px;
+    line-height: 1.33;
+  }
+  .groupMembers.whyEndalgo .memberCardWhy h6 {
+    font-size: 12px;
+    margin: 8px 0 0;
+    line-height: 1.17;
   }
 }
 /*# sourceMappingURL=style.css.map */
