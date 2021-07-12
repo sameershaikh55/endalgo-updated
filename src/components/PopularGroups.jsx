@@ -42,9 +42,10 @@ const PopularGroups = () => {
 						<div className="col-11 col-md-12 mx-auto">
 							<div className="d-flex justify-content-between">
 								<h5 className="fw-bold">Popular groups</h5>
-								<h6 className="greenColor">
+								<h6 className="d-none d-md-block greenColor">
 									Popular groups <FaArrowCircleRight />
 								</h6>
+								<h6 className="d-block d-md-none greenColor">See all</h6>
 							</div>
 
 							<div className="row rowCont">

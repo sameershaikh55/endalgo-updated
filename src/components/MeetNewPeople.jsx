@@ -27,60 +27,36 @@ const MeetNewPeople = () => {
 									<hr />
 									<div className="points">
 										<p className="point d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.5rem"
-											/>
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>Organized teams and clubs</span>
 										</p>
 										<p className="point d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.5rem"
-											/>
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>Recreational groups</span>
 										</p>
 										<p className="point d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.5rem"
-											/>
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>Leisure groups</span>
 										</p>
 										<p className="point d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.5rem"
-											/>
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>Social groups</span>
 										</p>
 										<p className="point d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.5rem"
-											/>
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>Facility</span>
 										</p>
-										<p className="d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.5rem"
-											/>
+										<p className="point d-flex">
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>Training academy & fitness</span>
 										</p>
 									</div>
 									<div className="mt-4 d-flex">
-										<button className="themeBtn2 py-2 mb-0 fw-bold rounded-3 border border-2 border-white btnLg">
-											Try for free
+										<button className="themeBtn2 py-2 mb-0 rounded-3 themeBorder btnLg">
+											Explore groups
 										</button>
-										<button className="bg-transparent themeBtn1 py-2 mb-0 fw-bold rounded-3 ms-3 redColor btnLg">
-											See pricing
+										<button className="bg-transparent themeBtn1 py-2 mb-0 rounded-3 ms-3 redColor btnLg">
+											Start my group
 										</button>
 									</div>
 								</div>

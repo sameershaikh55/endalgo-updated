@@ -1,7 +1,7 @@
 import React from "react";
 
 // IMPORTING ICONS
-import { FaArrowCircleRight } from "react-icons/fa";
+import { IoIosArrowForward } from "react-icons/io";
 
 // IMPORTING IMAGES
 import ft_1 from "../assets/ft-1-ic.webp";
@@ -87,7 +87,7 @@ const GroupFeatures = () => {
 														<div>
 															<button className="bg-transparent greenColor border-0 fw-bold h6">
 																Learn more{" "}
-																<FaArrowCircleRight fontSize="1.2rem" />
+																<IoIosArrowForward fontSize="1.2rem" />
 															</button>
 														</div>
 													</div>

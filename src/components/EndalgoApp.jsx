@@ -26,22 +26,14 @@ const EndalgoApp = () => {
 
 									<div className="points">
 										<p className="d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.5rem"
-											/>
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>
 												Simply set up your group profile. So, ENDALGO can
 												promote to the right audience for your group.
 											</span>
 										</p>
 										<p className="d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.9rem"
-											/>
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>
 												Invite your friends and people you know who share the
 												same interest with you. or simply add members with their
@@ -49,11 +41,7 @@ const EndalgoApp = () => {
 											</span>
 										</p>
 										<p className="d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.5rem"
-											/>
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>
 												Earn money or meet new people by listing your experience
 												and registrations, and host events.

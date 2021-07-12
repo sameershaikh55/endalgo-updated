@@ -19,65 +19,42 @@ const EventCoaches = () => {
 										Find events, coaches, and experiences near you
 									</h2>
 									<h6 className="centerPara">
-										Find events, coaches, and experiences near you
+										Looking for pickup games? Learning a new skill? Coaches to
+										train with? Clubs to join? Join now and play.
 									</h6>
 									<hr />
 									<div className="points">
-										<p className="mb-0 d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.5rem"
-											/>
+										<p className="point d-flex">
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>Open pickup games and classes </span>
 										</p>
-										<p className="mb-0 d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.5rem"
-											/>
+										<p className="point d-flex">
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>Training classes </span>
 										</p>
-										<p className="mb-0 d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.5rem"
-											/>
+										<p className="point d-flex">
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>Practice and training sessions </span>
 										</p>
-										<p className="mb-0 d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.5rem"
-											/>
+										<p className="point d-flex">
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>Tryouts</span>
 										</p>
-										<p className="mb-0 d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.5rem"
-											/>
+										<p className="point d-flex">
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>Clinics and camps</span>
 										</p>
-										<p className="mb-0 d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.5rem"
-											/>
+										<p className="point d-flex">
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>Competitions</span>
 										</p>
 									</div>
 									<div className="mt-4 d-flex">
-										<button className="themeBtn2 py-2 mb-0 fw-bold rounded-3 border border-2 border-white btnLg">
-											Try for free
+										<button className="themeBtn2 py-2 mb-0 rounded-3 border border-2 border-white btnLg">
+											Find an event
 										</button>
-										<button className="bg-transparent themeBtn1 py-2 mb-0 fw-bold rounded-3 ms-3 rounded-3 redColor btnLg">
-											See pricing
+										<button className="bg-transparent themeBtn1 py-2 mb-0  rounded-3 ms-3 rounded-3 redColor btnLg">
+											Host an event
 										</button>
 									</div>
 								</div>

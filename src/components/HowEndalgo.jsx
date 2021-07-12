@@ -32,7 +32,7 @@ const HowEndalgo = () => {
 						<div className="col-11 col-md-12 mx-auto">
 							<div className="mt-2 mb-4 text-center">
 								<h2 className="fw-bold mb-0">How ENDALGO works </h2>
-								<h6>
+								<h6 className="under_head">
 									Join a sports teams or meet new friends who share your
 									interests.
 								</h6>
@@ -45,10 +45,10 @@ const HowEndalgo = () => {
 											key={i}
 											className="col-12 col-sm-6 col-md-4 mt-4 mt-md-0 px-3"
 										>
-											<div className="memberCard">
+											<div className="memberCardHow">
 												<img className="w-100 rounded-3" src={img} alt="" />
-												<h5 className="fw-bold mt-4">{title}</h5>
-												<h6 className="small">{desc}</h6>
+												<h5 className="fw-bold">{title}</h5>
+												<h6>{desc}</h6>
 											</div>
 										</div>
 									);

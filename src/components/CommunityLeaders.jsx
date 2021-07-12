@@ -29,33 +29,21 @@ const CommunityLeaders = () => {
 
 									<div className="points">
 										<p className="d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.5rem"
-											/>
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>
 												Management purpose for sports teams and clubs from youth
 												to adult
 											</span>
 										</p>
 										<p className="d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.5rem"
-											/>
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>
 												Community groups to meet new people for sports, social,
 												and fitness groups
 											</span>
 										</p>
 										<p className="d-flex">
-											<GoCheck
-												color="#fb0a12"
-												className="pe-2"
-												fontSize="1.5rem"
-											/>
+											<GoCheck color="#fb0a12" className="pe-2 icon" />
 											<span>
 												Events or experiences hostings and continuing growth for
 												local experts or businesses
