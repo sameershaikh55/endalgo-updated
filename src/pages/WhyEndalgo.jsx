@@ -33,14 +33,14 @@ const WhyEndalgo = () => {
 			<GroupMembers />
 			<EndalgoForLeaders />
 			{/* WE GOT YOU BACK START */}
-			<div className="groupMembers w-100">
+			<div className="groupMembers weGotBack w-100">
 				<div className="page_container">
 					<div className="container-fluid">
 						<div className="row">
 							<div className="col-11 col-md-12 mx-auto">
 								<div className="row">
 									<div className="col-12 col-md-5 text-start text-md-center">
-										<h4 className="fw-bold mb-0">
+										<h4 className="fw-bold">
 											We’ve got your back, <br className="d-none d-md-block" />
 											every step of the way
 										</h4>
