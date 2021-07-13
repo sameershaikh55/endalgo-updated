@@ -419,6 +419,7 @@ $themeColor: rgb(251, 10, 18);
 		line-height: 26px !important;
 		color: #222222;
 		font-size: 1.25rem;
+		font-weight: 300;
 	}
 
 	.shareBtn {
@@ -469,6 +470,7 @@ $themeColor: rgb(251, 10, 18);
 	h6 {
 		margin: 8px 1px 0 0;
 		font-size: 14px;
+		line-height: 20px;
 	}
 }
 // ===== MEMBER CARD HOW ENDALGO END ======
@@ -529,6 +531,7 @@ $themeColor: rgb(251, 10, 18);
 		font-size: 1.125rem;
 		line-height: 24px;
 		color: #222222;
+		font-weight: 300;
 	}
 	.points {
 		margin: 24px 0px;
@@ -586,6 +589,7 @@ $themeColor: rgb(251, 10, 18);
 		color: #222222;
 		font-size: 1.125rem;
 		line-height: 24px;
+		font-weight: 300;
 	}
 
 	p {
@@ -673,11 +677,13 @@ $themeColor: rgb(251, 10, 18);
 		margin-bottom: 32px;
 		font-size: 1rem;
 		line-height: 22px;
+		font-weight: 300;
 	}
 	.minsHead {
 		font-size: 1.25rem;
 		margin-bottom: 12px;
 		line-height: 26px;
+		font-weight: 500;
 	}
 	h2 {
 		font-size: 2.375rem;
@@ -997,7 +1003,7 @@ $themeColor: rgb(251, 10, 18);
 	.coachesExp {
 		img {
 			width: 544px !important;
-			height: 560px;
+			height: 586px;
 		}
 	}
 	.groupManagement.endalgoHome {
@@ -1009,13 +1015,13 @@ $themeColor: rgb(251, 10, 18);
 	.communityLeader {
 		img {
 			width: 544px !important;
-			height: 560px;
+			height: 586px;
 		}
 	}
 	.endalgoApp {
 		img {
-			width: 544px;
-			height: 560px;
+			width: 544px !important;
+			height: 586px;
 		}
 	}
 	.groupMembers.getStarted .groupMCont {
@@ -1104,10 +1110,14 @@ $themeColor: rgb(251, 10, 18);
 	.communityPeople .points .point {
 		font-size: 14px;
 		line-height: 1.43;
-		margin: 16px 0 8px 0px;
+		margin: 8px 0 8px 0px;
 	}
 	.communityPeople .points .point .icon {
 		font-size: 1.3rem;
+	}
+	.coachesExp {
+		padding: 80px 0px 88px;
+		margin-bottom: 32px;
 	}
 	.coachesExp h2 {
 		font-size: 28px;

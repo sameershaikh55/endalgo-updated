@@ -264,14 +264,51 @@
 
 .groupMembers.whyEndalgo {
   margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 
 .groupMembers.whyEndalgo .main_head {
   font-size: 38px;
 }
 
+.groupMembers.weGotBack {
+  padding: 80px 0px 88px;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.groupMembers.weGotBack h4 {
+  font-size: 32px;
+  line-height: 1.19;
+}
+
+.groupMembers.weGotBack h6 {
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.groupMembers.getStarted {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.groupMembers.getStarted h2 {
+  font-size: 38px;
+  margin-bottom: 24px;
+}
+
+.startGroup {
+  padding: 80px 0px 88px;
+}
+
+.startGroup h2 {
+  font-size: 38px;
+  line-height: 1.26;
+}
+
 .startGroup .underHead {
   margin-bottom: 48px;
+  font-size: 18px;
 }
 
 .startGroup .rowCont {
@@ -284,7 +321,15 @@
 }
 
 .leaderCardCont .textContent h5 {
+  font-size: 24px;
+  line-height: 1.25;
   margin-bottom: 12px;
+}
+
+.leaderCardCont .textContent h6 {
+  font-size: 16px;
+  line-height: 1.38;
+  margin: 12px 0 0;
 }
 
 .memberCardWhy h5 {
@@ -325,6 +370,7 @@
   line-height: 26px !important;
   color: #222222;
   font-size: 1.25rem;
+  font-weight: 300;
 }
 
 .groupManagement .shareBtn img {
@@ -370,6 +416,7 @@
 .memberCardHow h6 {
   margin: 8px 1px 0 0;
   font-size: 14px;
+  line-height: 20px;
 }
 
 .endalgoApp {
@@ -428,6 +475,7 @@
   font-size: 1.125rem;
   line-height: 24px;
   color: #222222;
+  font-weight: 300;
 }
 
 .communityLeader .points {
@@ -468,64 +516,6 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .communityPeople img,
-  .coachesExp img {
-    width: 544px !important;
-    height: 560px;
-  }
-  .groupManagement.endalgoHome .heroImg {
-    width: 640px;
-    height: 534px;
-  }
-  .communityLeader img {
-    width: 544px !important;
-    height: 560px;
-  }
-  .endalgoApp img {
-    width: 544px;
-    height: 560px;
-  }
-  .groupMCont img {
-    height: 135px;
-    width: 135px;
-  }
-}
-
-.coachesExp {
-  padding: 112px 0px 120px 0px;
-  margin-bottom: 40px;
-}
-
-.coachesExp h2 {
-  font-size: 2.375rem;
-  line-height: 48px;
-}
-
-.coachesExp h6 {
-  margin: 24px 0px;
-  color: #222222;
-  font-size: 1.125rem;
-  line-height: 24px;
-}
-
-.coachesExp p {
-  font-size: 1rem;
-}
-
-.coachesExp .points {
-  margin: 24px 0px;
-  color: #676767;
-}
-
-.coachesExp .points .icon {
-  font-size: 1.5rem;
-}
-
-.coachesExp .points .point {
-  margin-bottom: 8px;
-}
-
 .communityPeople {
   padding: 112px 0px 120px 0px;
   background-color: #f7f7f7;
@@ -541,6 +531,7 @@
   color: #222222;
   font-size: 1.125rem;
   line-height: 24px;
+  font-weight: 300;
 }
 
 .communityPeople p {
@@ -633,12 +624,14 @@
   margin-bottom: 32px;
   font-size: 1rem;
   line-height: 22px;
+  font-weight: 300;
 }
 
 .groupFeature .minsHead {
   font-size: 1.25rem;
   margin-bottom: 12px;
   line-height: 26px;
+  font-weight: 500;
 }
 
 .groupFeature h2 {
@@ -663,6 +656,11 @@
 
 .endalgoForLeaders {
   padding: 5rem 0rem 5.5rem 0rem;
+}
+
+.endalgoForLeaders h2 {
+  font-size: 38px;
+  line-height: 1.26;
 }
 
 .endalgoForLeaders .rowCont {
@@ -931,6 +929,64 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .communityPeople img,
+  .coachesExp img {
+    width: 544px !important;
+    height: 586px;
+  }
+  .groupManagement.endalgoHome .heroImg img {
+    width: 640px;
+    height: 534px;
+  }
+  .communityLeader img {
+    width: 544px !important;
+    height: 586px;
+  }
+  .endalgoApp img {
+    width: 544px !important;
+    height: 586px;
+  }
+  .groupMembers.getStarted .groupMCont img {
+    height: 135px;
+    width: 135px;
+  }
+}
+
+.coachesExp {
+  padding: 112px 0px 120px 0px;
+  margin-bottom: 40px;
+}
+
+.coachesExp h2 {
+  font-size: 2.375rem;
+  line-height: 48px;
+}
+
+.coachesExp h6 {
+  margin: 24px 0px;
+  color: #222222;
+  font-size: 1.125rem;
+  line-height: 24px;
+}
+
+.coachesExp p {
+  font-size: 1rem;
+}
+
+.coachesExp .points {
+  margin: 24px 0px;
+  color: #676767;
+}
+
+.coachesExp .points .icon {
+  font-size: 1.5rem;
+}
+
+.coachesExp .points .point {
+  margin-bottom: 8px;
+}
+
 @media screen and (max-width: 575px) {
   .groupManagement h2 {
     font-size: 2rem;
@@ -975,10 +1031,14 @@
   .communityPeople .points .point {
     font-size: 14px;
     line-height: 1.43;
-    margin: 16px 0 8px 0px;
+    margin: 8px 0 8px 0px;
   }
   .communityPeople .points .point .icon {
     font-size: 1.3rem;
+  }
+  .coachesExp {
+    padding: 80px 0px 88px;
+    margin-bottom: 32px;
   }
   .coachesExp h2 {
     font-size: 28px;
@@ -1017,7 +1077,7 @@
   }
   .popularGroup h6 {
     line-height: 1.43;
-    font-size: 14px;
+    font-size: 16px;
   }
   .ourCustomer {
     padding-top: 0rem;
@@ -1106,6 +1166,7 @@
   }
   .groupMembers.whyEndalgo {
     padding: 64px 0px 72px;
+    margin-bottom: 0rem;
   }
   .groupMembers.whyEndalgo .short_head {
     font-size: 16px;
@@ -1125,6 +1186,57 @@
     font-size: 12px;
     margin: 8px 0 0;
     line-height: 1.17;
+  }
+  .endalgoForLeaders h2 {
+    font-size: 28px;
+    line-height: 1.21;
+  }
+  .leaderCardCont .textContent h5 {
+    font-size: 22px;
+    line-height: 1.27;
+  }
+  .leaderCardCont .textContent h6 {
+    font-size: 14px;
+    line-height: 1.43;
+  }
+  .groupMembers.weGotBack {
+    padding: 64px 0px 72px;
+  }
+  .groupMembers.weGotBack h4 {
+    font-size: 28px;
+    margin: 0 0 24px;
+    line-height: 1.21;
+  }
+  .groupMembers.weGotBack h6 {
+    font-size: 16px;
+    line-height: 1.38;
+  }
+  .startGroup h2 {
+    font-size: 28px;
+    line-height: 1.21;
+  }
+  .startGroup .underHead {
+    font-size: 16px;
+    line-height: 1.38;
+    margin: 8px 0px 16px;
+  }
+  .groupMembers.getStarted h2 {
+    font-size: 28px;
+  }
+  .groupMembers .groupMCont {
+    padding: 24px;
+  }
+  .groupMembers .groupMCont img {
+    width: 80px;
+    height: 80px;
+  }
+  .groupMembers .groupMCont h5 {
+    font-size: 22px;
+    line-height: 1.27;
+  }
+  .groupMembers .groupMCont p {
+    font-size: 14px;
+    line-height: 1.43;
   }
 }
 /*# sourceMappingURL=style.css.map */
