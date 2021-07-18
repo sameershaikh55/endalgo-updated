@@ -11,32 +11,6 @@
 $themeColor: rgb(251, 10, 18);
 // VARIABLES END
 
-// GLOBAL CLASSES START
-// html {
-// 	width: 100%;
-// 	font-size: 100%;
-// }
-// @media screen and (max-width: 992px) {
-// 	html {
-// 		font-size: 97%;
-// 	}
-// }
-// @media screen and (max-width: 668px) {
-// 	html {
-// 		font-size: 94%;
-// 	}
-// }
-// @media screen and (max-width: 575px) {
-// 	html {
-// 		font-size: 91%;
-// 	}
-// }
-// @media screen and (max-width: 475px) {
-// 	html {
-// 		font-size: 88%;
-// 	}
-// }
-
 .twoLineElipses {
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -251,141 +225,6 @@ $themeColor: rgb(251, 10, 18);
 }
 // ===== SIDEBAR END ======
 
-// ===== WHY ENDALGO HERO START ======
-.whyEndalgo_hero {
-	width: 100%;
-	height: 596px;
-	background-color: #111217;
-}
-@media screen and (max-width: 768px) {
-	.whyEndalgo_hero {
-		height: 452px;
-	}
-}
-// ===== WHY ENDALGO HERO END ======
-
-// ===== GROUP MEMBERS START ======
-.groupMembers {
-	background-color: #f7f7f7;
-	padding: 80px 0px 88px 0px;
-	margin-top: 5rem;
-	margin-bottom: 5.5rem;
-
-	h5 {
-		margin-bottom: 12px;
-	}
-
-	.groupMCont {
-		padding: 2.5rem;
-
-		img {
-			width: 48%;
-			// height: 135px;
-			// width: 135px;
-		}
-
-		h5 {
-			font-size: 1.5rem;
-			line-height: 1.25;
-		}
-
-		p {
-			line-height: 1.38;
-		}
-	}
-}
-
-.groupMembers.whyEndalgo {
-	margin-top: 0rem;
-	margin-bottom: 0rem;
-
-	.main_head {
-		font-size: 38px;
-	}
-}
-
-.groupMembers.weGotBack {
-	padding: 80px 0px 88px;
-	margin-top: 0rem;
-	margin-bottom: 0rem;
-
-	h4 {
-		font-size: 32px;
-		line-height: 1.19;
-	}
-	h6 {
-		font-size: 18px;
-		line-height: 1.33;
-	}
-}
-
-.groupMembers.getStarted {
-	margin-top: 0rem;
-	margin-bottom: 0rem;
-
-	h2 {
-		font-size: 38px;
-		margin-bottom: 24px;
-	}
-}
-// ===== GROUP MEMBERS END ======
-
-// ===== START A GROUP START ======
-.startGroup {
-	padding: 80px 0px 88px;
-
-	h2 {
-		font-size: 38px;
-		line-height: 1.26;
-	}
-
-	.underHead {
-		margin-bottom: 48px;
-		font-size: 18px;
-	}
-	.rowCont {
-		--bs-gutter-x: 2rem;
-	}
-}
-// ===== START A GROUP END ======
-
-// ===== LEADERS START ======
-.leaderCardCont {
-	.textContent {
-		margin: 24px 0px;
-		padding: 0px 24px;
-
-		h5 {
-			font-size: 24px;
-			line-height: 1.25;
-			margin-bottom: 12px;
-		}
-
-		h6 {
-			font-size: 16px;
-			line-height: 1.38;
-			margin: 12px 0 0;
-		}
-	}
-}
-// ===== LEADERS END ======
-
-// ===== GROUP MEMBERS START ======
-.memberCardWhy {
-	h5 {
-		font-size: 20px;
-		line-height: 1.3;
-		margin: 24px 0px 8px;
-	}
-
-	h6 {
-		font-size: 14px;
-		line-height: 1.43;
-		margin: 8px 0px 0;
-	}
-}
-// ===== GROUP MEMBERS END ======
-
 // ===== OUR CUSTOMERS START ======
 .ourCustomer {
 	padding: 3rem 0rem 3.5rem 0rem;
@@ -400,58 +239,163 @@ $themeColor: rgb(251, 10, 18);
 // ===== GROUP MANAGEMENT BANNER START ======
 .groupManagement {
 	width: 100%;
-	height: 596px;
+	height: 800px;
 	background-color: #111217;
 
-	.banner {
-		// height: 534px;
-		// width: 640px;
-		// width: auto;
+	h1 {
+		font-size: 48px;
+		font-weight: bold;
+		line-height: 1.25;
+		letter-spacing: -1.5px;
+		margin: 40px 0 16px;
 	}
 
-	h2 {
-		font-size: 3rem;
-		font-weight: bolder !important;
-		line-height: 60px;
+	p {
+		margin: 16px 0 40px;
+		font-size: 20px;
+		line-height: 1.3;
+		letter-spacing: -0.6px;
 	}
 
-	h6 {
-		line-height: 26px !important;
-		color: #222222;
-		font-size: 1.25rem;
-		font-weight: 300;
+	button {
+		padding: 14px 0;
+		border-radius: 4px;
+		background-color: #fb0a12;
+		font-size: 14px;
+		font-weight: 500;
+		margin: 0px 0px 32px 0px;
+		width: 195px;
+		height: 48px;
 	}
 
-	.shareBtn {
-		img {
-			width: 135px;
-			height: 40px;
+	.img_container {
+		position: absolute;
+		bottom: 0%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.schedulleBar {
+		height: 56px;
+		padding: 0 24px;
+		margin: 0px 0 40px;
+		border-radius: 4px;
+		box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+		border: solid 1px #e1e1e1;
+		transition: 0.8s;
+
+		h6 {
+			font-size: 18px;
+			font-weight: 500;
+			line-height: 1.33;
+			letter-spacing: -0.5px;
 		}
 	}
 
-	.groupHeroBtn {
-		margin-top: 40px;
+	.navLinks {
+		ul {
+			li {
+				a {
+					font-weight: 500;
+					line-height: 1.43;
+					font-size: 14px;
+				}
+			}
+			.nestedOne {
+				font-weight: 500;
+				line-height: 1.43;
+				font-size: 14px;
+				margin-top: 2px;
+			}
+			li.nestedOne:hover .nestedNav {
+				display: block;
+				opacity: 1;
+			}
+		}
+
+		.nestedNav {
+			top: 110%;
+			left: -40%;
+			width: 170px;
+			display: none;
+			opacity: 0;
+			transition: 1s;
+
+			.nestedLink {
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 1.43;
+				letter-spacing: -0.3px;
+			}
+
+			.nestedLink:hover {
+				background-color: rgba(0, 0, 0, 0.1);
+			}
+		}
+	}
+
+	.schedulleBar.mobile {
+		.navLinks {
+			height: 90px;
+
+			hr {
+				height: 2px;
+				background: rgb(124, 124, 124);
+			}
+
+			.nestedNav {
+				position: static;
+				display: none;
+				opacity: 0;
+				transition: 1s;
+
+				.nestedLink {
+					font-size: 14px;
+					font-weight: 500;
+					line-height: 1.43;
+					letter-spacing: -0.3px;
+				}
+
+				.nestedLink:hover {
+					background-color: rgba(0, 0, 0, 0.1);
+				}
+			}
+		}
 	}
 }
 
-@media screen and (max-width: 1050px) {
-	.groupManagement {
-		padding: 4rem 0rem 0rem 0rem;
-		height: 100%;
-
-		.banner {
-			width: 100%;
-			height: 100%;
-		}
-
-		.shareBtn {
-			justify-content: center;
-		}
-	}
-}
 @media screen and (max-width: 768px) {
 	.groupManagement {
-		padding: 2.5rem 0rem 0rem 0rem;
+		height: 499px;
+
+		.schedulleBar {
+			margin: 0 0 38px 1px;
+		}
+
+		h1 {
+			font-size: 32px;
+			line-height: 1.19;
+			letter-spacing: -1px;
+			margin: 38px 0 16px 0px;
+		}
+
+		p {
+			margin: 16px 0 32px 1px;
+			font-size: 18px;
+			line-height: 1.33;
+			letter-spacing: -0.5px;
+		}
+
+		button {
+			width: 107px;
+			height: 40px;
+			font-size: 14px;
+			line-height: 1.43;
+			letter-spacing: -0.4px;
+			padding: 10px 0px;
+			border-radius: 4px;
+			background-color: #fb0a12;
+		}
 
 		.groupHeroBtn {
 			margin-top: 40px;
@@ -460,20 +404,6 @@ $themeColor: rgb(251, 10, 18);
 	}
 }
 // ===== GROUP MANAGEMENT BANNER END ======
-
-// ===== MEMBER CARD HOW ENDALGO START ======
-.memberCardHow {
-	h5 {
-		margin: 24px 1px 8px 0;
-		font-size: 20px;
-	}
-	h6 {
-		margin: 8px 1px 0 0;
-		font-size: 14px;
-		line-height: 20px;
-	}
-}
-// ===== MEMBER CARD HOW ENDALGO END ======
 
 // ===== COMMMUNITY LEADERS START ======
 .endalgoApp {
@@ -708,25 +638,6 @@ $themeColor: rgb(251, 10, 18);
 }
 // ===== GROUP FEATURE END ======
 
-// ===== ENDALGO FOR LEADERS START ======
-.endalgoForLeaders {
-	padding: 5rem 0rem 5.5rem 0rem;
-
-	h2 {
-		font-size: 38px;
-		line-height: 1.26;
-	}
-
-	.rowCont {
-		--bs-gutter-x: 2rem;
-	}
-
-	.colCont {
-		margin-top: 2rem;
-	}
-}
-// ===== ENDALGO FOR LEADERS END ======
-
 // ===== EMAIL ARRIVE START ======
 .emailArriveCont {
 	padding: 0px 0px 120px 0px;
@@ -785,59 +696,6 @@ $themeColor: rgb(251, 10, 18);
 	}
 }
 // ===== ENDALGO HERO END ======
-
-// ===== HOW ENDALGO WORKS START ======
-.howEndalgo {
-	padding: 80px 0px 88px 0px;
-
-	h2 {
-		font-size: 2.375rem;
-		line-height: 3rem;
-	}
-
-	.under_head {
-		font-size: 1.125rem;
-		line-height: 24px;
-		margin-bottom: 48px;
-	}
-}
-// ===== HOW ENDALGO WORKS END ======
-
-// ===== POPULAR GROUP CARD START ======
-.popularGroup {
-	padding: 112px 0px 120px 0px;
-
-	h5 {
-		font-size: 1.5rem;
-	}
-
-	h6 {
-		font-size: 1.125rem;
-		line-height: 24px;
-	}
-
-	.upperCardCont {
-		margin-top: 32px;
-	}
-
-	.rowCont {
-		--bs-gutter-x: 2rem;
-	}
-}
-.popularGroupCard {
-	border: 1px solid #ccc;
-	border-radius: 8px;
-
-	small {
-		font-size: 0.75rem;
-		line-height: 20px;
-	}
-
-	.textPart {
-		height: 130px;
-	}
-}
-// ===== POPULAR GROUP CARD END ======
 
 // ===== TRUSTED START ======
 .trusted {
@@ -945,20 +803,6 @@ $themeColor: rgb(251, 10, 18);
 // FOR MOBILE START
 // ===== TRUSTED END ======
 
-// ===== TOP CITIES START ======
-.topCities {
-	padding: 40px 0px 48px 0px;
-
-	h4 {
-		margin-bottom: 24px;
-	}
-
-	div {
-		font-size: 1rem;
-	}
-}
-// ===== TOP CITIES END ======
-
 // ===== FOOTER START ======
 .footerContainer {
 	width: 100%;
@@ -999,13 +843,11 @@ $themeColor: rgb(251, 10, 18);
 
 // ===== MEDIA QUERIES START ======
 @media screen and (min-width: 1200px) {
-	.communityPeople,
-	.coachesExp {
-		img {
-			width: 544px !important;
-			height: 586px;
-		}
+	.groupManagement .img_container {
+		height: 450px;
+		width: 928px;
 	}
+
 	.groupManagement.endalgoHome {
 		.heroImg img {
 			width: 640px;
@@ -1032,39 +874,6 @@ $themeColor: rgb(251, 10, 18);
 	}
 }
 
-.coachesExp {
-	padding: 112px 0px 120px 0px;
-	margin-bottom: 40px;
-
-	h2 {
-		font-size: 2.375rem;
-		line-height: 48px;
-	}
-
-	h6 {
-		margin: 24px 0px;
-		color: #222222;
-		font-size: 1.125rem;
-		line-height: 24px;
-	}
-
-	p {
-		font-size: 1rem;
-	}
-
-	.points {
-		margin: 24px 0px;
-		color: #676767;
-		.icon {
-			font-size: 1.5rem;
-		}
-
-		.point {
-			margin-bottom: 8px;
-		}
-	}
-}
-
 @media screen and (max-width: 575px) {
 	// HOME PAGE START
 	.groupManagement h2 {
@@ -1084,59 +893,6 @@ $themeColor: rgb(251, 10, 18);
 		line-height: 1.38;
 		margin-bottom: 8px;
 	}
-	.memberCardHow h5 {
-		font-size: 18px;
-		line-height: 1.33;
-		margin: 16px 0 8px;
-	}
-	.memberCardHow h6 {
-		font-size: 12px;
-		line-height: 1.17;
-		margin: 8px 0 0;
-	}
-	.communityPeople {
-		padding: 80px 0px 36px 0px;
-	}
-	.communityPeople h2 {
-		font-size: 28px;
-		line-height: 1.21;
-		margin: 0 0 16px;
-	}
-	.communityPeople h6 {
-		font-size: 16px;
-		line-height: 1.38;
-		margin: 16px 0;
-	}
-	.communityPeople .points .point {
-		font-size: 14px;
-		line-height: 1.43;
-		margin: 8px 0 8px 0px;
-	}
-	.communityPeople .points .point .icon {
-		font-size: 1.3rem;
-	}
-	.coachesExp {
-		padding: 80px 0px 88px;
-		margin-bottom: 32px;
-	}
-	.coachesExp h2 {
-		font-size: 28px;
-		line-height: 1.21;
-		margin: 0 0 16px;
-	}
-	.coachesExp h6 {
-		font-size: 16px;
-		line-height: 1.38;
-		margin: 16px 0;
-	}
-	.coachesExp p {
-		font-size: 14px;
-		line-height: 1.43;
-		margin: 16px 0 8px 0px;
-	}
-	.coachesExp .points .icon {
-		font-size: 1.2rem;
-	}
 	.trusted2 .rightSide h4 {
 		font-size: 22px;
 		line-height: 1.27;
@@ -1149,14 +905,6 @@ $themeColor: rgb(251, 10, 18);
 	.trusted2 .rightSide button {
 		font-size: 14px;
 		line-height: 1.43;
-	}
-	.popularGroup h5 {
-		font-size: 22px;
-		line-height: 1.27;
-	}
-	.popularGroup h6 {
-		line-height: 1.43;
-		font-size: 16px;
 	}
 	// HOME PAGE END
 
@@ -1261,91 +1009,5 @@ $themeColor: rgb(251, 10, 18);
 		line-height: 1.19;
 	}
 	// GROUP MANAGEMENT END
-
-	// WHY ENDALGO START
-	.groupMembers.whyEndalgo {
-		padding: 64px 0px 72px;
-		margin-bottom: 0rem;
-
-		.short_head {
-			font-size: 16px;
-		}
-
-		.main_head {
-			font-size: 28px;
-		}
-
-		.main_head:nth-child(1) {
-			margin: 8px 0 32px;
-		}
-
-		.memberCardWhy {
-			h5 {
-				font-size: 18px;
-				margin: 16px 0 8px;
-				line-height: 1.33;
-			}
-			h6 {
-				font-size: 12px;
-				margin: 8px 0 0;
-				line-height: 1.17;
-			}
-		}
-	}
-	.endalgoForLeaders h2 {
-		font-size: 28px;
-		line-height: 1.21;
-	}
-	.leaderCardCont .textContent h5 {
-		font-size: 22px;
-		line-height: 1.27;
-	}
-	.leaderCardCont .textContent h6 {
-		font-size: 14px;
-		line-height: 1.43;
-	}
-	.groupMembers.weGotBack {
-		padding: 64px 0px 72px;
-	}
-	.groupMembers.weGotBack h4 {
-		font-size: 28px;
-		margin: 0 0 24px;
-		line-height: 1.21;
-	}
-	.groupMembers.weGotBack h6 {
-		font-size: 16px;
-		line-height: 1.38;
-	}
-	.startGroup h2 {
-		font-size: 28px;
-		line-height: 1.21;
-	}
-	.startGroup .underHead {
-		font-size: 16px;
-		line-height: 1.38;
-		margin: 8px 0px 16px;
-	}
-	.groupMembers.getStarted h2 {
-		font-size: 28px;
-	}
-	.groupMembers .groupMCont {
-		padding: 24px;
-
-		img {
-			width: 80px;
-			height: 80px;
-		}
-
-		h5 {
-			font-size: 22px;
-			line-height: 1.27;
-		}
-
-		p {
-			font-size: 14px;
-			line-height: 1.43;
-		}
-	}
-	// WHY ENDALGO END
 }
 // ===== MEDIA QUERIES END ======
