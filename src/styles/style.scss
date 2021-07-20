@@ -273,6 +273,7 @@ $themeColor: rgb(251, 10, 18);
 		bottom: 0%;
 		left: 50%;
 		transform: translateX(-50%);
+		width: 100%;
 	}
 
 	.schedulleBar {
@@ -432,24 +433,14 @@ $themeColor: rgb(251, 10, 18);
 			margin-bottom: 8px;
 
 			.icon {
-				font-size: 1.8rem;
-			}
-		}
-		p:nth-child(2) {
-			.icon {
-				font-size: 2.2rem;
-			}
-		}
-		p:nth-child(3) {
-			.icon {
-				font-size: 1.9rem;
+				font-size: 1.5rem;
 			}
 		}
 	}
 }
 
 .communityLeader {
-	margin-top: 40px;
+	background-color: #f7f7f7;
 	padding: 112px 0px 120px 0px;
 
 	h2 {
@@ -471,16 +462,6 @@ $themeColor: rgb(251, 10, 18);
 
 			.icon {
 				font-size: 1.5rem;
-			}
-		}
-		p:nth-child(2) {
-			.icon {
-				font-size: 1.7rem;
-			}
-		}
-		p:nth-child(3) {
-			.icon {
-				font-size: 1.9rem;
 			}
 		}
 	}
@@ -562,14 +543,11 @@ $themeColor: rgb(251, 10, 18);
 // ===== ENDALGO APP START ======
 .endalgoApp.bgLightGray {
 	padding: 112px 0px 120px 0px;
-	background-color: #f7f7f7;
 }
 // ===== ENDALGO APP END ======
 
 // ===== GROUP FEATURE START ======
 .groupFeature {
-	padding: 0px 0px 120px 0px;
-
 	.upperHead {
 		font-size: 18px;
 	}
@@ -669,6 +647,7 @@ $themeColor: rgb(251, 10, 18);
 .getStartedCont {
 	background: #ce090f;
 	padding: 80px 0px 88px 0px;
+	margin: 88px 0 0px;
 
 	h1 {
 		font-size: 3rem;
@@ -677,6 +656,10 @@ $themeColor: rgb(251, 10, 18);
 
 	h5 {
 		font-size: 1.2rem;
+	}
+
+	button {
+		width: 195px;
 	}
 
 	button:nth-child(1) {
@@ -803,6 +786,169 @@ $themeColor: rgb(251, 10, 18);
 // FOR MOBILE START
 // ===== TRUSTED END ======
 
+// ===== ENDALGO PRICING START ======
+.endalgo_pricing {
+	background-color: #f7f7f7;
+
+	h1 {
+		margin: 40px 0px 16px;
+		font-size: 48px;
+		font-weight: bold;
+		line-height: 1.25;
+		letter-spacing: -1.5px;
+		color: #222222;
+	}
+
+	.under_mainHead {
+		margin: 16px 0px 48px;
+		font-size: 16px;
+		line-height: 1.38;
+		letter-spacing: -0.4px;
+		color: #222222;
+	}
+
+	.pricingBody_container {
+		margin: 48px 0px 88px;
+		border-top: 16px solid $themeColor;
+		border-right: solid 1px #e1e1e1;
+		border-left: solid 1px #e1e1e1;
+		border-radius: 8px;
+
+		.pricing_header {
+			padding-left: 40px;
+			padding-right: 40px;
+			padding-top: 64px;
+			padding-bottom: 40px;
+
+			.crossText {
+				font-size: 28px;
+				font-weight: bold;
+				line-height: 1.21;
+				letter-spacing: -0.8px;
+				color: #bebebe;
+				text-decoration: line-through #000 3px;
+			}
+
+			strong {
+				margin: 40px 8px 0 4px;
+				font-size: 38px;
+				font-weight: bold;
+				line-height: 1.26;
+				letter-spacing: -1.2px;
+				color: #222222;
+			}
+
+			.per_month {
+				font-size: 16px;
+				font-weight: normal;
+				line-height: 1.38;
+				letter-spacing: -0.4px;
+				color: #676767;
+			}
+
+			p {
+				margin: 2px 0px 0px 0px;
+				font-size: 18px;
+				font-weight: normal;
+				line-height: 1.33;
+				letter-spacing: -0.5px;
+				color: #222222;
+			}
+
+			.btn_containers {
+				width: 399px;
+				height: 48px;
+				border-radius: 24px;
+				background-color: #f7f7f7;
+
+				button:nth-child(1) {
+					width: 399px;
+					padding: 15px 0;
+					border-radius: 24px;
+					background-color: #fb0a12;
+					font-size: 14px;
+					line-height: 1.43;
+					letter-spacing: -0.3px;
+					color: #f7f7f7;
+				}
+				button:nth-child(2) {
+					width: 100%;
+					font-size: 14px;
+					line-height: 1.43;
+					letter-spacing: -0.3px;
+					background: none;
+				}
+			}
+		}
+	}
+
+	.pricing_inner_body {
+		padding: 0px 40px;
+		margin: 32px 0px;
+
+		h2 {
+			margin: 32px 0px;
+			font-size: 22px;
+			font-weight: bold;
+			line-height: 1.27;
+			letter-spacing: -0.6px;
+			color: #222222;
+		}
+
+		.price_card {
+			h3 {
+				margin: 48px 0px 16px;
+				font-size: 20px;
+				font-weight: bold;
+				line-height: 1.3;
+				letter-spacing: -0.5px;
+				color: #222222;
+			}
+
+			.under_head {
+				margin: 16px 0px 24px;
+				font-size: 18px;
+				line-height: 1.33;
+				letter-spacing: -0.5px;
+				color: #222222;
+			}
+
+			.points {
+				p {
+					margin-bottom: 8px;
+					font-size: 16px;
+					line-height: 1.38;
+					letter-spacing: -0.4px;
+					color: #3c3c3c;
+				}
+			}
+		}
+
+		.bottom_line {
+			margin: 48px 0px 32px;
+			font-size: 24px;
+			font-weight: bold;
+			line-height: 1.25;
+			letter-spacing: -0.7px;
+			color: #222222;
+		}
+	}
+
+	.download_cont {
+		background-color: $themeColor;
+		margin: 32px 1px 0;
+		padding: 30px 40px 29px;
+		border-radius: 7px;
+
+		h2 {
+			font-size: 28px;
+			line-height: 1.21;
+			letter-spacing: -0.8px;
+		}
+	}
+}
+// ===== ENDALGO PRICING END ======
+
 // ===== FOOTER START ======
 .footerContainer {
 	width: 100%;
@@ -837,6 +983,139 @@ $themeColor: rgb(251, 10, 18);
 	}
 	.hero_sec {
 		margin-top: 3.5rem;
+	}
+	.getStartedCont button {
+		width: 60%;
+	}
+	.endalgo_pricing {
+		background-color: #f7f7f7;
+
+		h1 {
+			margin: 24px 0px 16px;
+			font-size: 32px;
+			line-height: 1.19;
+			letter-spacing: -1px;
+		}
+
+		.under_mainHead {
+			margin: 16px 0px 32px;
+			font-size: 14px;
+			line-height: 1.43;
+			text-align: justify;
+			text-align-last: center;
+		}
+
+		.pricingBody_container {
+			margin: 32px 0px 64px;
+			border-radius: 8px;
+			border-top: 8px solid $themeColor;
+
+			.pricing_header {
+				padding: 24px;
+
+				.crossText {
+					font-size: 22px;
+					line-height: 1.27;
+					letter-spacing: -0.6px;
+				}
+
+				strong {
+					margin: 0px 4px 0;
+					font-size: 28px;
+					line-height: 1.21;
+					letter-spacing: -0.8px;
+				}
+
+				.per_month {
+					font-size: 14px;
+					line-height: 1.43;
+					letter-spacing: -0.4px;
+				}
+
+				p {
+					margin: 2px 0px 16px;
+					font-size: 16px;
+					line-height: 1.38;
+					letter-spacing: -0.4px;
+				}
+
+				.btn_containers {
+					height: 48px;
+					border-radius: 24px;
+					background-color: #f7f7f7;
+					width: 100%;
+
+					button:nth-child(1) {
+						width: 100%;
+						font-size: 12px;
+						line-height: 1.17;
+						letter-spacing: -0.3px;
+						padding: 0px;
+					}
+					button:nth-child(2) {
+						width: 100%;
+						font-size: 14px;
+						line-height: 1.43;
+						letter-spacing: -0.3px;
+						background: none;
+					}
+				}
+			}
+		}
+
+		.pricing_inner_body {
+			padding: 0px 24px;
+			margin: 24px 0px;
+
+			h2 {
+				margin: 24px 0px;
+				font-size: 20px;
+				line-height: 1.3;
+				letter-spacing: -0.5px;
+			}
+
+			.price_card {
+				h3 {
+					margin: 40px 0px 12px;
+					font-size: 18px;
+					line-height: 1.33;
+					letter-spacing: -0.4px;
+				}
+
+				.under_head {
+					margin: 12px 0px 16px;
+					font-size: 16px;
+					line-height: 1.38;
+					letter-spacing: -0.4px;
+				}
+
+				.points {
+					p {
+						font-size: 14px;
+						line-height: 1.43;
+						letter-spacing: -0.4px;
+					}
+				}
+			}
+
+			.bottom_line {
+				margin: 40px 0px 24px;
+				font-size: 22px;
+				line-height: 1.27;
+				letter-spacing: -0.6px;
+			}
+		}
+
+		.download_cont {
+			margin: 24px 1px 0;
+			padding: 24px 23px;
+
+			h2 {
+				font-size: 24px;
+				line-height: 1.25;
+				letter-spacing: -0.7px;
+			}
+		}
 	}
 }
 // ===== FOOTER END ======
@@ -928,23 +1207,6 @@ $themeColor: rgb(251, 10, 18);
 		font-size: 16px;
 		line-height: 1.38;
 	}
-	.communityLeader .points {
-		p {
-			.icon {
-				font-size: 2rem;
-			}
-		}
-		p:nth-child(2) {
-			.icon {
-				font-size: 2.2rem;
-			}
-		}
-		p:nth-child(3) {
-			.icon {
-				font-size: 2.4rem;
-			}
-		}
-	}
 	.endalgoApp.bgLightGray {
 		padding: 80px 0 87px;
 	}
@@ -967,20 +1229,6 @@ $themeColor: rgb(251, 10, 18);
 
 		p {
 			margin-bottom: 8px;
-
-			.icon {
-				font-size: 2rem;
-			}
-		}
-		p:nth-child(2) {
-			.icon {
-				font-size: 2.6rem;
-			}
-		}
-		p:nth-child(3) {
-			.icon {
-				font-size: 2.1rem;
-			}
 		}
 	}
 	.groupFeature .minsHead {
@@ -1003,6 +1251,11 @@ $themeColor: rgb(251, 10, 18);
 		font-size: 28px;
 		line-height: 1.21;
 		margin: 8px 0 8px;
+	}
+	.getStartedCont {
+		button {
+			width: 100%;
+		}
 	}
 	.getStartedCont h1 {
 		font-size: 32px;

@@ -270,6 +270,7 @@
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  width: 100%;
 }
 
 .groupManagement .schedulleBar {
@@ -423,19 +424,11 @@
 }
 
 .endalgoApp .points p .icon {
-  font-size: 1.8rem;
-}
-
-.endalgoApp .points p:nth-child(2) .icon {
-  font-size: 2.2rem;
-}
-
-.endalgoApp .points p:nth-child(3) .icon {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
 }
 
 .communityLeader {
-  margin-top: 40px;
+  background-color: #f7f7f7;
   padding: 112px 0px 120px 0px;
 }
 
@@ -463,14 +456,6 @@
 
 .communityLeader .points p .icon {
   font-size: 1.5rem;
-}
-
-.communityLeader .points p:nth-child(2) .icon {
-  font-size: 1.7rem;
-}
-
-.communityLeader .points p:nth-child(3) .icon {
-  font-size: 1.9rem;
 }
 
 @media screen and (min-width: 1200px) {
@@ -543,11 +528,6 @@
 
 .endalgoApp.bgLightGray {
   padding: 112px 0px 120px 0px;
-  background-color: #f7f7f7;
-}
-
-.groupFeature {
-  padding: 0px 0px 120px 0px;
 }
 
 .groupFeature .upperHead {
@@ -656,6 +636,7 @@
 .getStartedCont {
   background: #ce090f;
   padding: 80px 0px 88px 0px;
+  margin: 88px 0 0px;
 }
 
 .getStartedCont h1 {
@@ -665,6 +646,10 @@
 
 .getStartedCont h5 {
   font-size: 1.2rem;
+}
+
+.getStartedCont button {
+  width: 195px;
 }
 
 .getStartedCont button:nth-child(1) {
@@ -792,6 +777,165 @@
   background-position-x: center;
 }
 
+.endalgo_pricing {
+  background-color: #f7f7f7;
+}
+
+.endalgo_pricing h1 {
+  margin: 40px 0px 16px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -1.5px;
+  color: #222222;
+}
+
+.endalgo_pricing .under_mainHead {
+  margin: 16px 0px 48px;
+  font-size: 16px;
+  line-height: 1.38;
+  letter-spacing: -0.4px;
+  color: #222222;
+}
+
+.endalgo_pricing .pricingBody_container {
+  margin: 48px 0px 88px;
+  border-top: 16px solid #fb0a12;
+  border-right: solid 1px #e1e1e1;
+  border-left: solid 1px #e1e1e1;
+  border-radius: 8px;
+}
+
+.endalgo_pricing .pricingBody_container .pricing_header {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+
+.endalgo_pricing .pricingBody_container .pricing_header .crossText {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.21;
+  letter-spacing: -0.8px;
+  color: #bebebe;
+  -webkit-text-decoration: line-through #000 3px;
+          text-decoration: line-through #000 3px;
+}
+
+.endalgo_pricing .pricingBody_container .pricing_header strong {
+  margin: 40px 8px 0 4px;
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 1.26;
+  letter-spacing: -1.2px;
+  color: #222222;
+}
+
+.endalgo_pricing .pricingBody_container .pricing_header .per_month {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.38;
+  letter-spacing: -0.4px;
+  color: #676767;
+}
+
+.endalgo_pricing .pricingBody_container .pricing_header p {
+  margin: 2px 0px 0px 0px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.33;
+  letter-spacing: -0.5px;
+  color: #222222;
+}
+
+.endalgo_pricing .pricingBody_container .pricing_header .btn_containers {
+  width: 399px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #f7f7f7;
+}
+
+.endalgo_pricing .pricingBody_container .pricing_header .btn_containers button:nth-child(1) {
+  width: 399px;
+  padding: 15px 0;
+  border-radius: 24px;
+  background-color: #fb0a12;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: -0.3px;
+  color: #f7f7f7;
+}
+
+.endalgo_pricing .pricingBody_container .pricing_header .btn_containers button:nth-child(2) {
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: -0.3px;
+  background: none;
+}
+
+.endalgo_pricing .pricing_inner_body {
+  padding: 0px 40px;
+  margin: 32px 0px;
+}
+
+.endalgo_pricing .pricing_inner_body h2 {
+  margin: 32px 0px;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.27;
+  letter-spacing: -0.6px;
+  color: #222222;
+}
+
+.endalgo_pricing .pricing_inner_body .price_card h3 {
+  margin: 48px 0px 16px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+  color: #222222;
+}
+
+.endalgo_pricing .pricing_inner_body .price_card .under_head {
+  margin: 16px 0px 24px;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.5px;
+  color: #222222;
+}
+
+.endalgo_pricing .pricing_inner_body .price_card .points p {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.38;
+  letter-spacing: -0.4px;
+  color: #3c3c3c;
+}
+
+.endalgo_pricing .pricing_inner_body .bottom_line {
+  margin: 48px 0px 32px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -0.7px;
+  color: #222222;
+}
+
+.endalgo_pricing .download_cont {
+  background-color: #fb0a12;
+  margin: 32px 1px 0;
+  padding: 30px 40px 29px;
+  border-radius: 7px;
+}
+
+.endalgo_pricing .download_cont h2 {
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.8px;
+}
+
 .footerContainer {
   width: 100%;
   border-top: 1px solid #e1e1e1;
@@ -821,6 +965,117 @@
   }
   .hero_sec {
     margin-top: 3.5rem;
+  }
+  .getStartedCont button {
+    width: 60%;
+  }
+  .endalgo_pricing {
+    background-color: #f7f7f7;
+  }
+  .endalgo_pricing h1 {
+    margin: 24px 0px 16px;
+    font-size: 32px;
+    line-height: 1.19;
+    letter-spacing: -1px;
+  }
+  .endalgo_pricing .under_mainHead {
+    margin: 16px 0px 32px;
+    font-size: 14px;
+    line-height: 1.43;
+    text-align: justify;
+    text-align-last: center;
+  }
+  .endalgo_pricing .pricingBody_container {
+    margin: 32px 0px 64px;
+    border-radius: 8px;
+    border-top: 8px solid #fb0a12;
+  }
+  .endalgo_pricing .pricingBody_container .pricing_header {
+    padding: 24px;
+  }
+  .endalgo_pricing .pricingBody_container .pricing_header .crossText {
+    font-size: 22px;
+    line-height: 1.27;
+    letter-spacing: -0.6px;
+  }
+  .endalgo_pricing .pricingBody_container .pricing_header strong {
+    margin: 0px 4px 0;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.8px;
+  }
+  .endalgo_pricing .pricingBody_container .pricing_header .per_month {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: -0.4px;
+  }
+  .endalgo_pricing .pricingBody_container .pricing_header p {
+    margin: 2px 0px 16px;
+    font-size: 16px;
+    line-height: 1.38;
+    letter-spacing: -0.4px;
+  }
+  .endalgo_pricing .pricingBody_container .pricing_header .btn_containers {
+    height: 48px;
+    border-radius: 24px;
+    background-color: #f7f7f7;
+    width: 100%;
+  }
+  .endalgo_pricing .pricingBody_container .pricing_header .btn_containers button:nth-child(1) {
+    width: 100%;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.3px;
+    padding: 0px;
+  }
+  .endalgo_pricing .pricingBody_container .pricing_header .btn_containers button:nth-child(2) {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: -0.3px;
+    background: none;
+  }
+  .endalgo_pricing .pricing_inner_body {
+    padding: 0px 24px;
+    margin: 24px 0px;
+  }
+  .endalgo_pricing .pricing_inner_body h2 {
+    margin: 24px 0px;
+    font-size: 20px;
+    line-height: 1.3;
+    letter-spacing: -0.5px;
+  }
+  .endalgo_pricing .pricing_inner_body .price_card h3 {
+    margin: 40px 0px 12px;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.4px;
+  }
+  .endalgo_pricing .pricing_inner_body .price_card .under_head {
+    margin: 12px 0px 16px;
+    font-size: 16px;
+    line-height: 1.38;
+    letter-spacing: -0.4px;
+  }
+  .endalgo_pricing .pricing_inner_body .price_card .points p {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: -0.4px;
+  }
+  .endalgo_pricing .pricing_inner_body .bottom_line {
+    margin: 40px 0px 24px;
+    font-size: 22px;
+    line-height: 1.27;
+    letter-spacing: -0.6px;
+  }
+  .endalgo_pricing .download_cont {
+    margin: 24px 1px 0;
+    padding: 24px 23px;
+  }
+  .endalgo_pricing .download_cont h2 {
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: -0.7px;
   }
 }
 
@@ -897,15 +1152,6 @@
     font-size: 16px;
     line-height: 1.38;
   }
-  .communityLeader .points p .icon {
-    font-size: 2rem;
-  }
-  .communityLeader .points p:nth-child(2) .icon {
-    font-size: 2.2rem;
-  }
-  .communityLeader .points p:nth-child(3) .icon {
-    font-size: 2.4rem;
-  }
   .endalgoApp.bgLightGray {
     padding: 80px 0 87px;
   }
@@ -929,15 +1175,6 @@
   .endalgoApp .points p {
     margin-bottom: 8px;
   }
-  .endalgoApp .points p .icon {
-    font-size: 2rem;
-  }
-  .endalgoApp .points p:nth-child(2) .icon {
-    font-size: 2.6rem;
-  }
-  .endalgoApp .points p:nth-child(3) .icon {
-    font-size: 2.1rem;
-  }
   .groupFeature .minsHead {
     font-size: 18px;
     line-height: 1.33;
@@ -958,6 +1195,9 @@
     font-size: 28px;
     line-height: 1.21;
     margin: 8px 0 8px;
+  }
+  .getStartedCont button {
+    width: 100%;
   }
   .getStartedCont h1 {
     font-size: 32px;

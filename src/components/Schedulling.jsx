@@ -1,10 +1,9 @@
 import React from "react";
 
 // importing images
-import mockup_1 from "../assets/groupMockup-3.webp";
+import mockup_1 from "../assets/beyond.webp";
 
 // importing icons
-import { IoIosArrowForward } from "react-icons/io";
 import { GoCheck } from "react-icons/go";
 
 const Schedulling = () => {
@@ -19,13 +18,11 @@ const Schedulling = () => {
 									<img className="w-100" src={mockup_1} alt="" />
 								</div>
 								<div className="rightside col-12 col-md-6 align-self-center order-0 order-md-1">
-									<h2 className="fw-bold">
-										Beyond scheduling and communication
-									</h2>
+									<h2 className="fw-bold">Beyond the scheduling</h2>
 									<h6>
-										Scheduling, communication, payment, registrations, and many
-										more features are developed by hundreds of actual community
-										leaders and feedback from our users.
+										Set up the fee to collect payment, guest allowance, waitlist
+										features, and registration deadline. Send reminder at your
+										need.
 									</h6>
 									<hr />
 									<div className="points">
@@ -35,10 +32,7 @@ const Schedulling = () => {
 												className="pe-2"
 												fontSize="1.5rem"
 											/>
-											<span>
-												Host and manage events with tracking availability,
-												waitlist, and payment
-											</span>
+											<span>Automatic reminder</span>
 										</p>
 										<p className="d-flex">
 											<GoCheck
@@ -46,10 +40,7 @@ const Schedulling = () => {
 												className="pe-2"
 												fontSize="1.5rem"
 											/>
-											<span>
-												Online registrations to find new members or players with
-												built-in payment feature
-											</span>
+											<span>Registration deadline</span>
 										</p>
 										<p className="d-flex">
 											<GoCheck
@@ -57,15 +48,25 @@ const Schedulling = () => {
 												className="pe-2"
 												fontSize="1.5rem"
 											/>
-											<span>
-												Help leaders communicate via Group chat, board, and
-												email features
-											</span>
+											<span>Guest allowance</span>
+										</p>
+										<p className="d-flex">
+											<GoCheck
+												color="#fb0a12"
+												className="pe-2"
+												fontSize="1.5rem"
+											/>
+											<span>Waitlist - FIFO(First In - First Out)</span>
+										</p>
+										<p className="d-flex">
+											<GoCheck
+												color="#fb0a12"
+												className="pe-2"
+												fontSize="1.5rem"
+											/>
+											<span>Collect Payment</span>
 										</p>
 									</div>
-									<button className="btnHover bg-transparent border-0 redColor h6 fw-bold">
-										Learn about features <IoIosArrowForward />
-									</button>
 								</div>
 							</div>
 						</div>

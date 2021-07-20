@@ -9,19 +9,16 @@ import CommunityLeaders from "../components/CommunityLeaders";
 import OurCustomer from "../components/OurCustomer";
 import Schedulling from "../components/Schedulling";
 import GroupFeatures from "../components/GroupFeatures";
-import EmailArrive from "../components/EmailArrive";
 
 // IMPORTING IMAGES
 import schduleTop from "../assets/schduleTop.webp";
-import google_play from "../assets/google-play-btn.webp";
-import app_store from "../assets/app-store-btn.webp";
 import ft1 from "../assets/ft-1-ic.webp";
-
-// IMPORTING HOOKS
-import { useHooks } from "../hooks/useHooks";
 import { NavLink } from "react-router-dom";
 import { RiArrowDownSLine } from "react-icons/ri";
 import { IoIosArrowDown } from "react-icons/io";
+
+// IMPORTING HOOKS
+import { useHooks } from "../hooks/useHooks";
 
 const SchedullingP = () => {
 	const { isOpen, OnClick } = useHooks();
@@ -44,7 +41,7 @@ const SchedullingP = () => {
 									<img src={ft1} alt="" />
 									<h6 className="mb-0 text-dark ms-2">Scheduling</h6>
 								</div>
-								<div>
+								<div className="d-block d-lg-none">
 									<IoIosArrowDown color="#000" fontSize="1.3rem" />
 								</div>
 								<div className="navLinks d-none d-lg-block">
@@ -198,7 +195,7 @@ const SchedullingP = () => {
 
 							<div className="row">
 								<div className="col-12">
-									<div className="img_container w-100 mx-auto">
+									<div className="img_container mx-auto">
 										<img className="w-100" src={schduleTop} alt="schduleTop" />
 									</div>
 								</div>
@@ -211,65 +208,10 @@ const SchedullingP = () => {
 
 			<OurCustomer />
 
-			{/* TRUSTING START */}
-			{/* DESKTOP */}
-			<div className="page_container d-none d-md-block">
-				<div className="container-fluid text-white">
-					<div className="trusted position-relative">
-						<div className="rightSide position-absolute">
-							<h3 className="fw-bold">
-								Trusted by 12,000 Communities Sports, fitness, and outdoor
-								activities.
-							</h3>
-							<div className="mt-4 d-flex">
-								<img src={google_play} alt="" />
-								<img src={app_store} alt="" className="ms-3" />
-							</div>
-						</div>
-
-						<div className="trustedCont position-relative">
-							<div className="innerTrustedCont text-center position-absolute text-white">
-								<div className="h3">⭐️⭐️⭐️⭐️⭐️</div>
-								<h4 className="fw-bold">4.5/5 from 1K+ Ratings</h4>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			{/* DESKTOP */}
-
-			{/* MOBILE */}
-			<div className="page_container d-block d-md-none">
-				<div className="container-fluid text-white">
-					<div className="trusted2 position-relative">
-						<div className="rightSide position-absolute">
-							<h1>
-								Trusted by 12,000 Communities Sports, fitness, and outdoor
-								activities.
-							</h1>
-							<div className="mt-4 d-flex">
-								<img src={google_play} alt="" />
-								<img src={app_store} alt="" className="ms-3" />
-							</div>
-						</div>
-
-						<div className="trustedCont2">
-							<div className="innerTrustedCont text-center position-absolute text-white">
-								<div className="starIcon">⭐️⭐️⭐️⭐️⭐️</div>
-								<h4 className="fw-bold">4.5/5 from 1K+ Ratings</h4>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			{/* MOBILE */}
-			{/* TRUSTING END */}
-
 			<CommunityLeaders />
 			<EndalgoApp />
 			<Schedulling />
 			<GroupFeatures />
-			<EmailArrive />
 
 			{/* GET STARTED START */}
 			<div className="getStartedCont">
@@ -282,10 +224,10 @@ const SchedullingP = () => {
 									<h5>Free to get started. Free to create your group.</h5>
 								</div>
 								<div className="mt-5 d-flex flex-column flex-md-row justify-content-center">
-									<button className="bg-white py-2 mb-0 rounded-3 px-5 border border-2 border-white">
+									<button className="bg-white py-2 mb-0 rounded-3 border border-2 border-white mx-auto mx-md-0">
 										Start my group
 									</button>
-									<button className="bg-transparent py-2 mb-0 rounded-3 px-5 border border-2 border-white ms-0 ms-md-3 mt-3 mt-md-0 text-white">
+									<button className="bg-transparent py-2 mb-0 rounded-3 border border-2 border-white ms-md-3 mt-3 mt-md-0 text-white mx-auto mx-md-0">
 										Try for free
 									</button>
 								</div>

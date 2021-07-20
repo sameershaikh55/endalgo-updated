@@ -8,20 +8,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 
 // IMPORTING PAGES
-// import WhyEndalgo from "./pages/WhyEndalgo";
-// import GroupManagement from "./pages/GroupManagement";
-// import EndalgoHome from "./pages/EndalgoHome";
 import SchedullingP from "./pages/Schedulling";
+import Pricing from "./pages/Pricing";
 
 function App() {
 	return (
 		<>
 			<ScrollToTop />
 			<Switch>
-				{/* <Route exact path="/" component={EndalgoHome} />
-				<Route exact path="/why" component={WhyEndalgo} />
-				<Route exact path="/group_management" component={GroupManagement} /> */}
 				<Route exact path="/" component={SchedullingP} />
+				<Route exact path="/pricing" component={Pricing} />
 			</Switch>
 		</>
 	);
