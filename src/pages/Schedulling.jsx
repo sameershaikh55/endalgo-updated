@@ -16,7 +16,7 @@ import schduleTop from "../assets/schduleTop.webp";
 import ft1 from "../assets/ft-1-ic.webp";
 import { NavLink } from "react-router-dom";
 import { RiArrowDownSLine } from "react-icons/ri";
-import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 // IMPORTING HOOKS
 import { useHooks } from "../hooks/useHooks";
@@ -122,11 +122,19 @@ const SchedullingP = () => {
 									<h6 className="mb-0 text-dark ms-2">Scheduling</h6>
 								</div>
 								<div>
-									<IoIosArrowDown
-										onClick={sideBarFunc}
-										color="#000"
-										fontSize="1.3rem"
-									/>
+									{(schBar && (
+										<IoIosArrowUp
+											onClick={sideBarFunc}
+											color="#000"
+											fontSize="1.3rem"
+										/>
+									)) || (
+										<IoIosArrowDown
+											onClick={sideBarFunc}
+											color="#000"
+											fontSize="1.3rem"
+										/>
+									)}
 								</div>
 							</div>
 
@@ -147,10 +155,17 @@ const SchedullingP = () => {
 											className="text-dark uppNav"
 										>
 											Features{" "}
-											<RiArrowDownSLine
-												onClick={() => setfeature(!feature)}
-												fontSize="1.4rem"
-											/>
+											{(feature && (
+												<IoIosArrowUp
+													onClick={() => setfeature(!feature)}
+													fontSize="1.2rem"
+												/>
+											)) || (
+												<RiArrowDownSLine
+													onClick={() => setfeature(!feature)}
+													fontSize="1.4rem"
+												/>
+											)}
 											{feature && (
 												<div className="nested mt-2 py-1 px-2 px-3">
 													<ul className="list-unstyled">
