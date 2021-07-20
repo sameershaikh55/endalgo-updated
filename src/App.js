@@ -11,6 +11,7 @@ import ScrollToTop from "./components/ScrollToTop.jsx";
 import SchedullingP from "./pages/Schedulling";
 import Pricing from "./pages/Pricing";
 import Faq from "./pages/Faq";
+import Feature from "./pages/Feature";
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 				<Route exact path="/" component={SchedullingP} />
 				<Route exact path="/pricing" component={Pricing} />
 				<Route exact path="/faq" component={Faq} />
+				<Route exact path="/feature" component={Feature} />
 			</Switch>
 		</>
 	);

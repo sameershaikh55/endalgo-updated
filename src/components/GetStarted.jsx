@@ -1,10 +1,10 @@
 import React from "react";
 
-const GetStarted = () => {
+const GetStarted = ({ feature }) => {
 	return (
 		<div>
 			{/* GET STARTED START */}
-			<div className="getStartedCont">
+			<div style={{ marginTop: feature && "0px" }} className="getStartedCont">
 				<div className="page_container">
 					<div className="container-fluid">
 						<div className="row">
