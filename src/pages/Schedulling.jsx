@@ -26,6 +26,11 @@ const SchedullingP = () => {
 	const [schBar, setSchBar] = useState(false);
 	const [feature, setfeature] = useState(false);
 
+	const sideBarFunc = () => {
+		setSchBar(!schBar);
+		setfeature(false);
+	};
+
 	return (
 		<div>
 			<Header ClickEvent={OnClick} />
@@ -103,8 +108,10 @@ const SchedullingP = () => {
 
 						{/* SCHDULE BAR MOBILE START */}
 						<div
-							style={{ height: (schBar && "500px") || "56px" }}
-							className="schedulleBar mobile d-block d-md-none bg-white w-100"
+							style={{
+								height: (feature && "505px") || (schBar && "180px") || "56px",
+							}}
+							className="schedulleBar mobile d-block d-md-none bg-white"
 						>
 							<div
 								style={{ height: "56px" }}
@@ -116,7 +123,7 @@ const SchedullingP = () => {
 								</div>
 								<div>
 									<IoIosArrowDown
-										onClick={() => setSchBar(!schBar)}
+										onClick={sideBarFunc}
 										color="#000"
 										fontSize="1.3rem"
 									/>
@@ -126,8 +133,8 @@ const SchedullingP = () => {
 							{schBar && (
 								<div className="navLinks">
 									<hr className="mt-0 mb-2" />
-									<ul className="list-unstyled d-flex flex-column justify-content-between h-100 mb-0">
-										<li className="me-4">
+									<ul className="list-unstyled d-flex flex-column h-100 mb-0">
+										<li className="uppNav me-4">
 											<NavLink
 												to="/"
 												className="text-dark text-decoration-none"
@@ -135,16 +142,19 @@ const SchedullingP = () => {
 												Overview
 											</NavLink>
 										</li>
-										<li style={{ height: "600px" }} className="text-dark me-3">
+										<li
+											style={{ height: (feature && "352px") || "22px" }}
+											className="text-dark uppNav"
+										>
 											Features{" "}
 											<RiArrowDownSLine
 												onClick={() => setfeature(!feature)}
 												fontSize="1.4rem"
 											/>
 											{feature && (
-												<div className="bg-white py-1 px-2 px-3">
+												<div className="nested mt-2 py-1 px-2 px-3">
 													<ul className="list-unstyled">
-														<li className="nestedLink pointer py-2 px-2">
+														<li className="nestedLink pointer themeBtn py-2 px-2">
 															Scheduling
 														</li>
 														<li className="nestedLink pointer py-2 px-2">
@@ -172,7 +182,7 @@ const SchedullingP = () => {
 												</div>
 											)}
 										</li>
-										<li className="fw-bold me-2">
+										<li className="uppNav fw-bold me-2">
 											<NavLink
 												to="/"
 												className="text-dark text-decoration-none"

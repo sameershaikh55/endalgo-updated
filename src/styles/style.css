@@ -287,8 +287,8 @@
   -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
           box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: solid 1px #e1e1e1;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .groupManagement .schedulleBar h6 {
@@ -337,6 +337,21 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+.groupManagement .schedulleBar.mobile {
+  z-index: 99999;
+  width: 93%;
+  position: absolute;
+}
+
+.groupManagement .schedulleBar.mobile ul li .uppNav,
+.groupManagement .schedulleBar.mobile ul li.uppNav {
+  margin-bottom: 12px;
+}
+
+.groupManagement .schedulleBar.mobile ul li .nested {
+  background-color: #f7f7f7;
+}
+
 .groupManagement .schedulleBar.mobile .navLinks {
   height: 90px;
 }
@@ -350,8 +365,8 @@
   position: static;
   display: none;
   opacity: 0;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .groupManagement .schedulleBar.mobile .navLinks .nestedNav .nestedLink {
