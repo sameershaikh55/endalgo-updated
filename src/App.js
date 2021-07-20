@@ -10,6 +10,7 @@ import ScrollToTop from "./components/ScrollToTop.jsx";
 // IMPORTING PAGES
 import SchedullingP from "./pages/Schedulling";
 import Pricing from "./pages/Pricing";
+import Faq from "./pages/Faq";
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 			<Switch>
 				<Route exact path="/" component={SchedullingP} />
 				<Route exact path="/pricing" component={Pricing} />
+				<Route exact path="/faq" component={Faq} />
 			</Switch>
 		</>
 	);

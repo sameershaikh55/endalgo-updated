@@ -97,6 +97,12 @@ $themeColor: rgb(251, 10, 18);
 	margin-right: auto;
 }
 
+.page_container2 {
+	max-width: 928px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .hero_sec {
 	margin-top: 5rem;
 }
@@ -949,6 +955,85 @@ $themeColor: rgb(251, 10, 18);
 }
 // ===== ENDALGO PRICING END ======
 
+// ===== FAQ START ======
+.faq_container {
+	h1 {
+		margin: 40px 0px 80px 0px;
+		font-size: 48px;
+		font-weight: bold;
+		line-height: 1.25;
+		letter-spacing: -1.5px;
+		color: #222222;
+	}
+
+	.faq_sec {
+		h2 {
+			margin: 80px 0px 40px 0px;
+			font-size: 32px;
+			line-height: 1.19;
+			letter-spacing: -1px;
+			font-weight: bold;
+			color: #222222;
+		}
+
+		.faq_sec_body {
+			.MuiAccordionSummary-content {
+				margin: 0;
+			}
+			.head {
+				font-size: 18px;
+				font-weight: bold;
+				line-height: 1.33;
+				letter-spacing: -0.4px;
+				color: #222222;
+				padding: 0px 0px 0px 16px;
+			}
+
+			.MuiAccordion-root {
+				margin: 24px 0px;
+				padding: 24px 0px;
+				border-radius: 8px;
+				box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+				border: solid 1px #f1f1f1;
+				transition: 0.6s all;
+
+				&:hover {
+					box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+				}
+			}
+			.MuiAccordion-root:before {
+				background: none;
+			}
+
+			.MuiAccordionDetails-root {
+				padding: 0px 32px 0px 32px;
+				margin: 24px 0 0;
+				p {
+					font-size: 14px;
+					line-height: 1.43;
+					letter-spacing: -0.4px;
+				}
+			}
+			.MuiIconButton-root {
+				padding-top: 0px;
+				padding-bottom: 0px;
+			}
+			.MuiAccordionSummary-root {
+				min-height: auto !important;
+			}
+			.MuiAccordionSummary-root.Mui-expanded {
+				min-height: auto !important;
+			}
+			.Mui-expanded {
+				.MuiSvgIcon-root {
+					color: $themeColor;
+				}
+			}
+		}
+	}
+}
+// ===== FAQ END ======
+
 // ===== FOOTER START ======
 .footerContainer {
 	width: 100%;
@@ -1117,6 +1202,73 @@ $themeColor: rgb(251, 10, 18);
 			}
 		}
 	}
+
+	.faq_container {
+		h1 {
+			margin: 24px 0px 0px;
+			font-size: 32px;
+			line-height: 1.19;
+			letter-spacing: -1px;
+		}
+
+		.faq_sec {
+			h2 {
+				margin: 64px 0px 32px;
+				font-size: 28px;
+				line-height: 1.21;
+				letter-spacing: -0.8px;
+			}
+
+			.faq_sec_body {
+				.MuiAccordionSummary-content {
+					margin: 0;
+				}
+				.head {
+					font-size: 16px;
+					line-height: 1.38;
+					letter-spacing: -0.3px;
+					padding: 0px 0px 0px 0px;
+				}
+
+				.MuiAccordion-root {
+					margin: 16px 0px;
+					padding: 16px 0px;
+
+					&:hover {
+						box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+					}
+				}
+				.MuiAccordion-root:before {
+					background: none;
+				}
+
+				.MuiAccordionDetails-root {
+					padding: 0px 16px 0px 16px;
+					margin: 24px 0 0;
+					p {
+						font-size: 14px;
+						line-height: 1.43;
+						letter-spacing: -0.4px;
+					}
+				}
+				.MuiIconButton-root {
+					padding-top: 0px;
+					padding-bottom: 0px;
+				}
+				.MuiAccordionSummary-root {
+					min-height: auto !important;
+				}
+				.MuiAccordionSummary-root.Mui-expanded {
+					min-height: auto !important;
+				}
+				.Mui-expanded {
+					.MuiSvgIcon-root {
+						color: $themeColor;
+					}
+				}
+			}
+		}
+	}
 }
 // ===== FOOTER END ======
 
@@ -1251,6 +1403,9 @@ $themeColor: rgb(251, 10, 18);
 		font-size: 28px;
 		line-height: 1.21;
 		margin: 8px 0 8px;
+	}
+	.getStartedCont {
+		margin: 64px 0 0px;
 	}
 	.getStartedCont {
 		button {

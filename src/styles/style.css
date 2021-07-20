@@ -96,6 +96,12 @@
   margin-right: auto;
 }
 
+.page_container2 {
+  max-width: 928px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hero_sec {
   margin-top: 5rem;
 }
@@ -936,6 +942,85 @@
   letter-spacing: -0.8px;
 }
 
+.faq_container h1 {
+  margin: 40px 0px 80px 0px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -1.5px;
+  color: #222222;
+}
+
+.faq_container .faq_sec h2 {
+  margin: 80px 0px 40px 0px;
+  font-size: 32px;
+  line-height: 1.19;
+  letter-spacing: -1px;
+  font-weight: bold;
+  color: #222222;
+}
+
+.faq_container .faq_sec .faq_sec_body .MuiAccordionSummary-content {
+  margin: 0;
+}
+
+.faq_container .faq_sec .faq_sec_body .head {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: -0.4px;
+  color: #222222;
+  padding: 0px 0px 0px 16px;
+}
+
+.faq_container .faq_sec .faq_sec_body .MuiAccordion-root {
+  margin: 24px 0px;
+  padding: 24px 0px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  border: solid 1px #f1f1f1;
+  -webkit-transition: 0.6s all;
+  transition: 0.6s all;
+}
+
+.faq_container .faq_sec .faq_sec_body .MuiAccordion-root:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.faq_container .faq_sec .faq_sec_body .MuiAccordion-root:before {
+  background: none;
+}
+
+.faq_container .faq_sec .faq_sec_body .MuiAccordionDetails-root {
+  padding: 0px 32px 0px 32px;
+  margin: 24px 0 0;
+}
+
+.faq_container .faq_sec .faq_sec_body .MuiAccordionDetails-root p {
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: -0.4px;
+}
+
+.faq_container .faq_sec .faq_sec_body .MuiIconButton-root {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.faq_container .faq_sec .faq_sec_body .MuiAccordionSummary-root {
+  min-height: auto !important;
+}
+
+.faq_container .faq_sec .faq_sec_body .MuiAccordionSummary-root.Mui-expanded {
+  min-height: auto !important;
+}
+
+.faq_container .faq_sec .faq_sec_body .Mui-expanded .MuiSvgIcon-root {
+  color: #fb0a12;
+}
+
 .footerContainer {
   width: 100%;
   border-top: 1px solid #e1e1e1;
@@ -1077,6 +1162,60 @@
     line-height: 1.25;
     letter-spacing: -0.7px;
   }
+  .faq_container h1 {
+    margin: 24px 0px 0px;
+    font-size: 32px;
+    line-height: 1.19;
+    letter-spacing: -1px;
+  }
+  .faq_container .faq_sec h2 {
+    margin: 64px 0px 32px;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.8px;
+  }
+  .faq_container .faq_sec .faq_sec_body .MuiAccordionSummary-content {
+    margin: 0;
+  }
+  .faq_container .faq_sec .faq_sec_body .head {
+    font-size: 16px;
+    line-height: 1.38;
+    letter-spacing: -0.3px;
+    padding: 0px 0px 0px 0px;
+  }
+  .faq_container .faq_sec .faq_sec_body .MuiAccordion-root {
+    margin: 16px 0px;
+    padding: 16px 0px;
+  }
+  .faq_container .faq_sec .faq_sec_body .MuiAccordion-root:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  }
+  .faq_container .faq_sec .faq_sec_body .MuiAccordion-root:before {
+    background: none;
+  }
+  .faq_container .faq_sec .faq_sec_body .MuiAccordionDetails-root {
+    padding: 0px 16px 0px 16px;
+    margin: 24px 0 0;
+  }
+  .faq_container .faq_sec .faq_sec_body .MuiAccordionDetails-root p {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: -0.4px;
+  }
+  .faq_container .faq_sec .faq_sec_body .MuiIconButton-root {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .faq_container .faq_sec .faq_sec_body .MuiAccordionSummary-root {
+    min-height: auto !important;
+  }
+  .faq_container .faq_sec .faq_sec_body .MuiAccordionSummary-root.Mui-expanded {
+    min-height: auto !important;
+  }
+  .faq_container .faq_sec .faq_sec_body .Mui-expanded .MuiSvgIcon-root {
+    color: #fb0a12;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1195,6 +1334,9 @@
     font-size: 28px;
     line-height: 1.21;
     margin: 8px 0 8px;
+  }
+  .getStartedCont {
+    margin: 64px 0 0px;
   }
   .getStartedCont button {
     width: 100%;
