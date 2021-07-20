@@ -117,7 +117,7 @@ $themeColor: rgb(251, 10, 18);
 	position: fixed;
 	left: 0%;
 	top: 0%;
-	z-index: 1;
+	z-index: 2;
 	background: #ffff;
 	border-bottom: 1px solid #e1e1e1;
 	height: 80px;
@@ -342,7 +342,7 @@ $themeColor: rgb(251, 10, 18);
 	}
 
 	.schedulleBar.mobile {
-		z-index: 99999;
+		z-index: 1;
 		width: 93%;
 		position: absolute;
 
@@ -1617,6 +1617,9 @@ $themeColor: rgb(251, 10, 18);
 
 @media screen and (max-width: 575px) {
 	// HOME PAGE START
+	.groupManagement .group_schedule {
+		margin-top: 5rem;
+	}
 	.groupManagement h2 {
 		font-size: 2rem;
 		line-height: 1.19;

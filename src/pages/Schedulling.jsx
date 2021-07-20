@@ -196,7 +196,7 @@ const SchedullingP = () => {
 						</div>
 						{/* SCHDULE BAR MOBILE END */}
 
-						<div className="text-center">
+						<div className="group_schedule text-center">
 							<h1>Group Scheduling</h1>
 							<p>
 								Easily create event that you want, track availability, and
