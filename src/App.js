@@ -1,8 +1,10 @@
 import { Route, Switch } from "react-router";
+import { useEffect } from "react";
 
 // IMPORTING CSS
 import "./styles/style.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "aos/dist/aos.css";
 
 // IMPORTING COMPONENTS
 import ScrollToTop from "./components/ScrollToTop.jsx";
@@ -13,7 +15,16 @@ import Pricing from "./pages/Pricing";
 import Faq from "./pages/Faq";
 import Feature from "./pages/Feature";
 
+// IMPORTING ANIMATIONS
+import AOS from "aos";
+
 function App() {
+	useEffect(() => {
+		AOS.init({
+			once: true,
+		});
+	}, []);
+
 	return (
 		<>
 			<ScrollToTop />

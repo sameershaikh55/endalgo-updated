@@ -15,9 +15,20 @@ const CommunityLeaders = () => {
 						<div className="col-11 col-md-12 mx-auto">
 							<div className="row">
 								<div className="col-12 col-md-6 mt-5 mt-md-0 pe-3 pe-md-5 order-1 order-md-0">
-									<img className="w-100" src={schedulling} alt="" />
+									<img
+										data-aos="zoom-in"
+										data-aos-duration="800"
+										className="w-100"
+										src={schedulling}
+										alt=""
+									/>
 								</div>
-								<div className="rightText col-12 col-md-6 align-self-center order-0 order-md-1">
+								<div
+									data-aos="fade"
+									data-aos-duration="800"
+									data-aos-delay="100"
+									className="rightText col-12 col-md-6 align-self-center order-0 order-md-1"
+								>
 									<h2 className="fw-bold">Schedule what you want</h2>
 									<h6 className="centerPara">
 										Public event to meet new people, group event for members
