@@ -34,8 +34,8 @@ const Header = ({ ClickEvent }) => {
 												to="/"
 												className="d-flex align-items-center text-dark text-decoration-none"
 											> */}
-												Product{" "}
-												<RiArrowDownSLine fontSize="1.4rem" className="ms-2" />
+											Product{" "}
+											<RiArrowDownSLine fontSize="1.4rem" className="ms-2" />
 											{/* </NavLink> */}
 											<div className="position-absolute bg-white shadow py-1 px-2 nestedNav px-3 py-3">
 												<ul className="list-unstyled">
