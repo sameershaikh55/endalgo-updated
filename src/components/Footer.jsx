@@ -41,7 +41,7 @@ const Footer = () => {
 					<div className="row">
 						<div className="col-12">
 							<div className="row">
-								<div className="col-12 col-md-3 pt-5">
+								<div className="col-12 col-md-3 footerPad">
 									<img src={logo} alt="logo" />
 								</div>
 								{/* FOR MOBILE VIEW START */}
@@ -49,7 +49,7 @@ const Footer = () => {
 									<div>
 										<div
 											onClick={aboutFunc}
-											className="d-flex justify-content-between align-items-center mt-5 pointer"
+											className="d-flex justify-content-between align-items-center pointer"
 										>
 											<h3 className="fw-bold mb-0">About</h3>
 											{(footer.about && <IoIosArrowUp fontSize="1.4rem" />) || (
@@ -133,39 +133,44 @@ const Footer = () => {
 									</div>
 								</div>
 								{/* FOR MOBILE VIEW END */}
-								<div className="col-9 d-none d-md-block py-5">
+								<div className="col-9 d-none d-md-block footerPad">
 									<div className="row">
 										<div className="col-3">
-											<h5 className="fw-bold">About</h5>
-											<h6 className="fw-bold">Company</h6>
-											<h6 className="fw-bold">Jobs</h6>
-											<h6 className="fw-bold">Blog</h6>
+											<h5 className="fw-bolder mb-3">About</h5>
+											<h6 className="mb-3">Company</h6>
+											<h6 className="mb-3">Jobs</h6>
+											<h6 className="mb-3">Blog</h6>
 										</div>
 										<div className="col-3">
-											<h5 className="fw-bold">Product</h5>
-											<h6 className="fw-bold">How It works</h6>
+											<h5 className="fw-bolder mb-3">Product</h5>
+											<h6 className="mb-3">How It works</h6>
 											<NavLink
 												to="/group_management"
 												className="text-dark text-decoration-none"
 											>
-												<h6 className="fw-bold">Group Management</h6>
+												<h6 className="mb-3">Group Management</h6>
 											</NavLink>
 											<ul className="list-unstyled mb-2">
-												<li className="lightColor">・ Features</li>
-												<li className="lightColor">・ Pricing</li>
+												<li
+													style={{ marginBottom: "12px" }}
+													className="lightColor"
+												>
+													・ Features
+												</li>
+												<li className="lightColor mb-3">・ Pricing</li>
 											</ul>
-											<h6 className="fw-bold">Blog</h6>
+											<h6 className="mb-3">Blog</h6>
 										</div>
 										<div className="col-3">
-											<h5 className="fw-bold">Explore</h5>
-											<h6 className="fw-bold">Topics</h6>
-											<h6 className="fw-bold">Group Management</h6>
-											<h6 className="fw-bold">Browse Cities</h6>
+											<h5 className="fw-bolder mb-3">Explore</h5>
+											<h6 className="mb-3">Topics</h6>
+											<h6 className="mb-3">Group Management</h6>
+											<h6 className="mb-3">Browse Cities</h6>
 										</div>
 										<div className="col-3">
-											<h5 className="fw-bold">Support</h5>
-											<h6 className="fw-bold">Help Center</h6>
-											<h6 className="fw-bold">Contact Us</h6>
+											<h5 className="fw-bolder mb-3">Support</h5>
+											<h6 className="mb-3">Help Center</h6>
+											<h6 className="mb-3">Contact Us</h6>
 										</div>
 									</div>
 								</div>

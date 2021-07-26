@@ -17,7 +17,8 @@ const CommunityLeaders = () => {
 								<div className="col-12 col-md-6 mt-5 mt-md-0 pe-3 pe-md-5 order-1 order-md-0">
 									<img
 										data-aos="zoom-in"
-										data-aos-duration="800"
+										data-aos-duration="1100"
+										data-aos-delay="300"
 										className="w-100"
 										src={schedulling}
 										alt=""
@@ -25,8 +26,8 @@ const CommunityLeaders = () => {
 								</div>
 								<div
 									data-aos="fade"
-									data-aos-duration="800"
-									data-aos-delay="100"
+									data-aos-duration="1200"
+									data-aos-delay="400"
 									className="rightText col-12 col-md-6 align-self-center order-0 order-md-1"
 								>
 									<h2 className="fw-bold">Schedule what you want</h2>

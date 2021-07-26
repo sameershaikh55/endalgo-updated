@@ -80,7 +80,7 @@ const GroupFeatures = () => {
 														<div>
 															<div className="d-flex align-items-center">
 																<img src={img} alt={title} />
-																<h5 className="ms-2 mb-0 fw-bold">{title}</h5>
+																<h5 className="mb-0 fw-bold">{title}</h5>
 															</div>
 															<h6 className="desc darkColor">{desc}</h6>
 														</div>
