@@ -67,7 +67,7 @@ const Footer = () => {
 									<div>
 										<div
 											onClick={productFunc}
-											className="d-flex justify-content-between align-items-center mt-4 pointer"
+											className="d-flex justify-content-between align-items-center mobile_upperNav pointer"
 										>
 											<h3 className="fw-bold mb-0">Product</h3>
 											{(footer.product && (
@@ -94,7 +94,7 @@ const Footer = () => {
 									<div>
 										<div
 											onClick={exploreFunc}
-											className="d-flex justify-content-between align-items-center mt-4 pointer"
+											className="d-flex justify-content-between align-items-center mobile_upperNav pointer"
 										>
 											<h3 className="fw-bold mb-0">Explore</h3>
 											{(footer.explore && (
@@ -117,7 +117,7 @@ const Footer = () => {
 									<div>
 										<div
 											onClick={supportFunc}
-											className="d-flex justify-content-between align-items-center mt-4 pointer"
+											className="d-flex justify-content-between align-items-center mobile_upperNav pointer"
 										>
 											<h3 className="fw-bold mb-0">Support</h3>
 											{(footer.support && (
@@ -180,7 +180,7 @@ const Footer = () => {
 										@2020 ENDALGO, Inc. all rights reservrd ・ Privacy ・ Terms
 										・ Sitemap
 									</small>
-									<div className="d-flex justify-content-center flex-wrap mt-3 mt-md-0 mb-2">
+									<div className="d-flex justify-content-start flex-wrap mt-3 mt-md-0 mb-2">
 										<img src={facebook} alt="facebook" />
 										<img
 											src={linkedin}

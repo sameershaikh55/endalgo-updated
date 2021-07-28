@@ -13,10 +13,12 @@ import ScrollToTop from "./components/ScrollToTop.jsx";
 import SchedullingP from "./pages/Schedulling";
 import Pricing from "./pages/Pricing";
 import Faq from "./pages/Faq";
+import Community from "./pages/Community";
 import Feature from "./pages/Feature";
 
 // IMPORTING ANIMATIONS
 import AOS from "aos";
+import Contact from "./pages/Contact";
 
 function App() {
 	useEffect(() => {
@@ -33,6 +35,8 @@ function App() {
 				<Route exact path="/pricing" component={Pricing} />
 				<Route exact path="/faq" component={Faq} />
 				<Route exact path="/feature" component={Feature} />
+				<Route exact path="/community" component={Community} />
+				<Route exact path="/contact" component={Contact} />
 			</Switch>
 		</>
 	);

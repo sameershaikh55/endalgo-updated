@@ -25,6 +25,7 @@ const SchedullingP = () => {
 	const { isOpen, OnClick } = useHooks();
 	const [schBar, setSchBar] = useState(false);
 	const [feature, setfeature] = useState(false);
+	const [featureD, setFeatureD] = useState(false);
 
 	const sideBarFunc = () => {
 		setSchBar(!schBar);
@@ -60,37 +61,42 @@ const SchedullingP = () => {
 												Overview
 											</NavLink>
 										</li>
-										<li className="nestedOne text-dark me-3 position-relative">
+										<li
+											onClick={() => setFeatureD(!featureD)}
+											className="nestedOne text-dark me-3 position-relative pointer"
+										>
 											Features <RiArrowDownSLine fontSize="1.4rem" />
 											{/* </NavLink> */}
-											<div className="position-absolute bg-white shadow py-1 px-2 nestedNav px-3 py-3">
-												<ul className="list-unstyled">
-													<li className="nestedLink pointer py-2 px-2">
-														Scheduling
-													</li>
-													<li className="nestedLink pointer py-2 px-2">
-														Members
-													</li>
-													<li className="nestedLink pointer py-2 px-2">
-														Communication
-													</li>
-													<li className="nestedLink pointer py-2 px-2">
-														Online Registration
-													</li>
-													<li className="nestedLink pointer py-2 px-2">
-														Experience
-													</li>
-													<li className="nestedLink pointer py-2 px-2">
-														Collect Money
-													</li>
-													<li className="nestedLink pointer py-2 px-2">
-														Subgroup
-													</li>
-													<li className="nestedLink pointer py-2 px-2">
-														Invoicing
-													</li>
-												</ul>
-											</div>
+											{featureD && (
+												<div className="position-absolute bg-white shadow py-1 px-2 nestedNav px-3 py-3">
+													<ul className="list-unstyled">
+														<li className="nestedLink pointer py-2 px-2">
+															Scheduling
+														</li>
+														<li className="nestedLink pointer py-2 px-2">
+															Members
+														</li>
+														<li className="nestedLink pointer py-2 px-2">
+															Communication
+														</li>
+														<li className="nestedLink pointer py-2 px-2">
+															Online Registration
+														</li>
+														<li className="nestedLink pointer py-2 px-2">
+															Experience
+														</li>
+														<li className="nestedLink pointer py-2 px-2">
+															Collect Money
+														</li>
+														<li className="nestedLink pointer py-2 px-2">
+															Subgroup
+														</li>
+														<li className="nestedLink pointer py-2 px-2">
+															Invoicing
+														</li>
+													</ul>
+												</div>
+											)}
 										</li>
 										<li className="fw-bold me-2">
 											<NavLink

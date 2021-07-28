@@ -314,18 +314,18 @@ $themeColor: rgb(251, 10, 18);
 				font-size: 14px;
 				margin-top: 2px;
 			}
-			li.nestedOne:hover .nestedNav {
-				display: block;
-				opacity: 1;
-			}
+			// li.nestedOne:hover .nestedNav {
+			// 	display: block;
+			// 	opacity: 1;
+			// }
 		}
 
 		.nestedNav {
 			top: 110%;
 			left: -40%;
 			width: 170px;
-			display: none;
-			opacity: 0;
+			// display: none;
+			// opacity: 0;
 			transition: 1s;
 
 			.nestedLink {
@@ -1219,6 +1219,10 @@ $themeColor: rgb(251, 10, 18);
 	h5 {
 		font-size: 18px;
 	}
+
+	.mobile_upperNav {
+		margin-top: 32px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -1591,6 +1595,261 @@ $themeColor: rgb(251, 10, 18);
 }
 // ===== FOOTER END ======
 
+// ===== COMMUNITY HERO START ======
+.hero_community {
+	height: 596px;
+	margin: 80px 0 0;
+	background-color: #111217;
+
+	h1 {
+		line-height: 1.25;
+		font-size: 48px;
+		letter-spacing: -1.5px;
+		color: #f7f7f7;
+	}
+}
+// ===== COMMUNITY HERO END ======
+
+// ===== STORIES START ======
+.stories_container {
+	margin-top: 24px;
+	margin-bottom: 88px;
+
+	.row {
+		.col-4:nth-child(1) {
+			padding-right: 16px;
+		}
+		.col-4:nth-child(2) {
+			padding-left: 16px;
+			padding-right: 16px;
+		}
+		.col-4:nth-child(3) {
+			padding-left: 16px;
+		}
+	}
+
+	.inner_story {
+		margin-top: 24px;
+		height: 134px;
+	}
+
+	p {
+		font-style: italic;
+		line-height: 1.43;
+		letter-spacing: -0.4px;
+		font-size: 14px;
+	}
+
+	.bottom_text {
+		h6 {
+			font-size: 14px;
+			line-height: 1.43;
+			letter-spacing: -0.4px;
+		}
+
+		h6:nth-child(2) {
+			color: #676767;
+			font-weight: lighter;
+		}
+
+		.dot {
+			height: 4px;
+			width: 4px;
+			background-color: #000;
+			border-radius: 50%;
+			margin-right: 4px;
+			margin-left: 4px;
+		}
+	}
+}
+// ===== STORIES END ======
+
+// ===== COMMUNITY BANNER START ======
+.comunity_banner {
+	background: url(../assets/comunityBanner.webp);
+	padding: 94px 0px 93px 0px;
+	width: 100%;
+	object-fit: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	h1 {
+		font-size: 3rem;
+	}
+}
+// ===== COMMUNITY BANNER END ======
+
+// ===== CARDS START ======
+.card1,
+.card3 {
+	margin: 112px 0px 120px;
+}
+
+.card2 {
+	padding: 112px 0px 120px;
+	background-color: #f7f7f7;
+}
+
+.card1,
+.card2,
+.card3 {
+	h1 {
+		font-size: 38px;
+		letter-spacing: -1.2px;
+		line-height: 1.26;
+		color: #222222;
+		margin: 0px 0 24px 0px;
+	}
+
+	p {
+		margin: 24px 0 24px 0px;
+		font-size: 18px;
+		line-height: 1.33;
+		letter-spacing: -0.5px;
+		color: #222222;
+	}
+
+	hr {
+		margin: 24px 0px;
+	}
+
+	.list_card {
+		div {
+			line-height: 1.38;
+			letter-spacing: -0.4px;
+		}
+	}
+}
+// ===== CARDS END ======
+
+// ===== CONTACT BODY START ======
+.contact_body {
+	background-color: #f7f7f7;
+	padding-bottom: 88px;
+
+	.head {
+		h1 {
+			padding: 40px 0px 0px;
+			font-size: 48px;
+			font-weight: bold;
+			line-height: 1.25;
+			letter-spacing: -1.5px;
+		}
+
+		p {
+			margin: 16px 0px 48px;
+			font-size: 20px;
+			line-height: 1.3;
+			letter-spacing: -0.6px;
+		}
+	}
+
+	.row.cRow {
+		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+		border: solid 1px #e1e1e1;
+		border-radius: 8px;
+		background-color: #fff;
+
+		ul {
+			padding-left: 1.2rem;
+
+			li {
+				line-height: 1.38;
+				letter-spacing: -0.4px;
+			}
+		}
+	}
+
+	.row .col-lg-6:nth-child(1) {
+		background: #fb0a12;
+		border-radius: inherit;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+		padding: 32px 40px 0px;
+
+		p {
+			letter-spacing: -0.4px;
+			line-height: 1.38;
+		}
+	}
+
+	h2 {
+		font-size: 24px;
+		line-height: 1.25;
+		letter-spacing: -0.7px;
+		margin-bottom: 12px;
+	}
+
+	.icons_container {
+		padding: 3px 0px 0px 0px;
+		background-color: #fff;
+		height: 40px;
+		width: 40px;
+		border-radius: 8px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 32px;
+	}
+
+	.row .col-lg-6:nth-child(2) {
+		padding: 32px 40px 48px;
+
+		label {
+			font-weight: 500;
+			margin-bottom: 2px;
+		}
+
+		input {
+			height: 40px;
+			border: solid 1px #e1e1e1;
+			border-radius: 2px;
+			padding: 9px 34px 9px 20px;
+
+			&::placeholder {
+				color: #e1e1e1;
+			}
+
+			&:focus {
+				outline: 2px solid #000;
+			}
+		}
+
+		textarea {
+			border-radius: 2px;
+			border: solid 1px #e1e1e1;
+			padding: 9px 34px 9px 20px;
+
+			&::placeholder {
+				color: #e1e1e1;
+			}
+		}
+
+		p {
+			font-size: 14px;
+			letter-spacing: -0.4px;
+			line-height: 1.43;
+			color: #676767;
+		}
+	}
+
+	button {
+		background: #fb0a12;
+		height: 40px;
+		border-radius: 4px;
+	}
+
+	.sport_sec {
+		margin-top: 40px;
+
+		.inner_p {
+			margin-bottom: 40px;
+		}
+	}
+}
+// ===== CONTACT BODY END ======
+
 // ===== MEDIA QUERIES START ======
 @media screen and (min-width: 1200px) {
 	.groupManagement .img_container {
@@ -1627,6 +1886,109 @@ $themeColor: rgb(251, 10, 18);
 	}
 	.testimonials_cont .testi_card {
 		height: 400px;
+	}
+	.card1,
+	.card2,
+	.card3 {
+		img {
+			// width: 544px !important;
+			height: 373px;
+		}
+	}
+}
+
+@media screen and (max-width: 998px) {
+	.contact_body .row .col-lg-6:nth-child(1) {
+		border-radius: inherit;
+		border-top-right-radius: 0px;
+		border-top-left-radius: 0px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.comunity_banner {
+		background-size: cover !important;
+		padding: 74px 0px;
+
+		h1 {
+			font-size: 38px;
+		}
+	}
+	.hero_community {
+		height: 260px;
+
+		h1 {
+			font-size: 32px;
+		}
+	}
+	.stories_container .inner_story {
+		margin-top: 16px;
+	}
+	.stories_container .inner_story {
+		height: 112px;
+	}
+	.stories_container {
+		margin-top: 16px;
+		margin-bottom: 72px;
+	}
+	.card1,
+	.card3 {
+		margin: 80px 0px 88px;
+	}
+	.card2 {
+		padding: 80px 0px 88px;
+	}
+	.contact_body .head h1 {
+		font-size: 38px;
+	}
+	.contact_body .head p {
+		margin: 16px 0px 32px;
+	}
+	.contact_body .row .col-lg-6:nth-child(2) {
+		padding: 24px 24px 48px;
+	}
+	.contact_body .row .col-lg-6:nth-child(1) {
+		padding: 24px 24px 24px;
+	}
+	.contact_body .row .col-lg-6:nth-child(2) input {
+		padding: 9px 16px 9px 16px;
+	}
+	.contact_body .icons_container {
+		margin-bottom: 24px;
+	}
+	.contact_body .sport_sec .inner_p {
+		margin-bottom: 28px;
+	}
+	.contact_body .sport_sec {
+		margin-top: 28px;
+	}
+	.card1 h1,
+	.card2 h1,
+	.card3 h1 {
+		font-size: 28px;
+		margin: 0px 0 20px 0px;
+	}
+	.card1 p,
+	.card2 p,
+	.card3 p {
+		margin: 20px 0 20px 0px;
+		font-size: 16px;
+	}
+	.card1 hr,
+	.card2 hr,
+	.card3 hr {
+		margin: 20px 0px;
+	}
+	.card1 .list_card div,
+	.card2 .list_card div,
+	.card3 .list_card div {
+		font-size: 14px;
+	}
+	.footerContainer .footerPad {
+		padding: 48px 0px 32px 12px;
+	}
+	.footerContainer h3 {
+		font-size: 18px;
 	}
 }
 
