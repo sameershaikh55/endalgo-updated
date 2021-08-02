@@ -75,6 +75,10 @@ $themeColor: rgb(251, 10, 18);
 	color: #222222;
 }
 
+.fs14 {
+	font-size: 14px;
+}
+
 .borderRound {
 	border-radius: 6px;
 }
@@ -2113,7 +2117,7 @@ $themeColor: rgb(251, 10, 18);
 		padding: 24px 24px 48px;
 	}
 	.contact_body .row .col-lg-6:nth-child(1) {
-		padding: 24px 24px 24px;
+		padding: 40px;
 	}
 	.contact_body .row .col-lg-6:nth-child(2) input {
 		padding: 9px 16px 9px 16px;
@@ -2136,13 +2140,13 @@ $themeColor: rgb(251, 10, 18);
 	.card1 p,
 	.card2 p,
 	.card3 p {
-		margin: 20px 0 20px 0px;
+		margin: 16px 0 16px 0px;
 		font-size: 16px;
 	}
 	.card1 hr,
 	.card2 hr,
 	.card3 hr {
-		margin: 20px 0px;
+		margin: 16px 0px;
 	}
 	.card1 .list_card div,
 	.card2 .list_card div,
@@ -2430,7 +2434,7 @@ $themeColor: rgb(251, 10, 18);
 		margin: 8px 0 8px;
 	}
 	.getStartedCont {
-		margin: 64px 0 0px;
+		margin: 0px;
 	}
 	.getStartedCont {
 		button {

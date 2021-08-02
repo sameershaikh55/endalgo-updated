@@ -57,10 +57,10 @@ const Footer = () => {
 											)}
 										</div>
 										{footer.about && (
-											<div className="mt-2">
-												<h5 className="fw-bold">Company</h5>
-												<h5 className="fw-bold">Jobs</h5>
-												<h5 className="fw-bold">Blog</h5>
+											<div className="mt-3">
+												<h6 className="mb-3">Company</h6>
+												<h6 className="mb-3">Jobs</h6>
+												<h6 className="mb-3">Blog</h6>
 											</div>
 										)}
 									</div>
@@ -75,19 +75,17 @@ const Footer = () => {
 											)) || <IoIosArrowDown fontSize="1.4rem" />}
 										</div>
 										{footer.product && (
-											<div className="mt-2">
-												<h5 className="fw-bold">How It works</h5>
+											<div className="mt-3">
+												<h6>How It works</h6>
 												<NavLink
 													to="/group_management"
 													className="text-dark text-decoration-none"
-												>
-													<h5 className="fw-bold">Group Management</h5>
-												</NavLink>
+												></NavLink>
 												<ul className="list-unstyled mb-2">
-													<li className="lightColor fw-bold">・ Features</li>
-													<li className="lightColor fw-bold">・ Pricing</li>
+													<li className="lightColor fs14">・ Features</li>
+													<li className="lightColor fs14">・ Pricing</li>
 												</ul>
-												<h5 className="fw-bold">Blog</h5>
+												<h6>Community</h6>
 											</div>
 										)}
 									</div>
@@ -102,15 +100,15 @@ const Footer = () => {
 											)) || <IoIosArrowDown fontSize="1.4rem" />}
 										</div>
 										{footer.explore && (
-											<div className="mt-2">
-												<h5 className="fw-bold">Topics</h5>
+											<div className="mt-3">
+												<h6 className="mb-3">Topics</h6>
 												<NavLink
 													to="/group_management"
 													className="text-dark text-decoration-none"
 												>
-													<h5 className="fw-bold">Group Management</h5>
+													<h6 className="mb-3">Group Management</h6>
 												</NavLink>
-												<h5 className="fw-bold">Browse Cities</h5>
+												<h6 className="mb-3">Browse Cities</h6>
 											</div>
 										)}
 									</div>
@@ -125,9 +123,9 @@ const Footer = () => {
 											)) || <IoIosArrowDown fontSize="1.4rem" />}
 										</div>
 										{footer.support && (
-											<div className="mt-2">
-												<h5 className="fw-bold">Help Center</h5>
-												<h5 className="fw-bold">Contact Us</h5>
+											<div className="mt-3">
+												<h6 className="mb-3">Help Center</h6>
+												<h6>Contact Us</h6>
 											</div>
 										)}
 									</div>
@@ -177,7 +175,7 @@ const Footer = () => {
 								<hr />
 								<div className="d-flex flex-wrap justify-content-md-between flex-column flex-md-row mb-2">
 									<small className="lightColor">
-										@2020 ENDALGO, Inc. all rights reservrd ・ Privacy ・ Terms
+										@2021 ENDALGO, Inc. all rights reservrd ・ Privacy ・ Terms
 										・ Sitemap
 									</small>
 									<div className="d-flex justify-content-start flex-wrap mt-3 mt-md-0 mb-2">
